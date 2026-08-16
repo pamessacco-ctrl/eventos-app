@@ -10,7 +10,7 @@ sitios de ticketing argentinos.
   `backend/main.py` corre todos los scrapers y genera `backend/output/events.json`.
 - `.github/workflows/scrape.yml` — corre el backend cada 6 horas en GitHub
   Actions y commitea el `events.json` actualizado al repo.
-- `android/` — (todavía no existe) la app Kotlin/Compose que consume ese JSON.
+- `android/` — app Android nativa (Kotlin + Jetpack Compose) que consume ese JSON: calendario mensual, buscador, detalle de evento con "Comprar" y "Agregar a mi calendario".
 
 ## Backend: correr localmente
 
@@ -23,21 +23,28 @@ python main.py
 
 Genera `backend/output/events.json`.
 
-## Fuentes cubiertas (7 de 9)
+## Fuentes cubiertas (8 de 9)
 
 | Sitio | Método |
 |---|---|
 | Quality Center | HTML server-rendered |
-| All Access | HTML server-rendered |
+| All Access | HTML server-rendered (falla desde IPs de datacenter, ver nota abajo) |
 | LivePass | HTML server-rendered |
 | Mi Anticipada | endpoint JSON interno |
 | Venti | API JSON pública |
 | TurboEntrada | API JSON del motor EntradaUno |
 | Movistar Arena | Playwright + JSON-LD schema.org |
+| entradauno.com | API JSON del motor EntradaUno (catálogo agregado, ~400 eventos de golpe) |
 
-**Sin resolver:** Passline (bloqueado por Cloudflare — no se intentó bypass a
-propósito) y entradauno.com (portal del proveedor, SPA que no termina de
-cargar los datos).
+**Sin resolver:** Passline — tiene un challenge de Cloudflare que bloquea
+navegadores automatizados. Decisión consciente: no se intentó bypass, porque
+el sitio está señalizando explícitamente que no quiere tráfico de bots.
+
+**Nota sobre All Access:** el sitio sirve vía AWS CloudFront, que bloquea
+IPs de datacenter conocidas (incluidas las de GitHub Actions) con un 403 —
+pero anda perfecto desde una IP residencial normal. El scraping en la nube
+sigue trayendo las otras 7 fuentes igual (el orquestador aísla errores por
+scraper). Si corrés `python main.py` desde tu PC de casa, ese sí se captura.
 
 ## Poner esto en GitHub (para que el scraping corra solo)
 

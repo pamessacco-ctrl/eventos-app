@@ -9,7 +9,7 @@ from pathlib import Path
 
 from scrapers import (
     quality_center, all_access, livepass, mi_anticipada,
-    venti, turbo_entrada, movistar_arena,
+    venti, turbo_entrada, movistar_arena, entrada_uno,
 )
 from scrapers.base import dedupe
 
@@ -23,6 +23,7 @@ SCRAPERS = [
     ("venti", venti.scrape),
     ("turbo_entrada", turbo_entrada.scrape),
     ("movistar_arena", movistar_arena.scrape),
+    ("entrada_uno", entrada_uno.scrape),
 ]
 
 
