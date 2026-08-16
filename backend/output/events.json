@@ -1,6 +1,6 @@
 {
-  "generado": "2026-08-16T12:56:03.558140+00:00",
-  "total_eventos": 1109,
+  "generado": "2026-08-16T13:22:13.759444+00:00",
+  "total_eventos": 1142,
   "resumen_por_fuente": {
     "quality_center": 94,
     "all_access": 29,
@@ -9,7 +9,8 @@
     "venti": 313,
     "turbo_entrada": 23,
     "movistar_arena": 70,
-    "entrada_uno": 408
+    "entrada_uno": 408,
+    "rosario_en_cartel": 33
   },
   "eventos": [
     {
@@ -95,6 +96,34 @@
       "ticket_url": "https://livepass.com.ar/events/adem-robaldo-marceca-adem-panzillo-quinteto-en-ccnu",
       "fuente": "livepass.com.ar",
       "id": "5ea60ede5bc8b8ea"
+    },
+    {
+      "titulo": "Mercado de las Artes",
+      "venue": "Ex Aduana Rosario",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-16",
+      "fecha_fin": null,
+      "categoria": "arte",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2022/03/mercado-artes-2025-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/mercado-de-las-artes-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "d2dee56fad81be06"
+    },
+    {
+      "titulo": "«Las Escenas Secundarias»",
+      "venue": "Espacio Bravo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-16",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/07/Las-Escenas-Secundarias-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/las-escenas-secundarias/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "964dc39da3c7eb84"
     },
     {
       "titulo": "Museo de la Vid y el Vino",
@@ -811,6 +840,20 @@
       "id": "f7355547f267e45a"
     },
     {
+      "titulo": "Mocchi",
+      "venue": "Casa Brava",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-19",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2021/09/Mocchi-2026-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/mocchi/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "aad785605917111a"
+    },
+    {
       "titulo": "El Circo de Putas",
       "venue": "Behind Bar",
       "ciudad": "CABA",
@@ -977,6 +1020,20 @@
       "ticket_url": "https://livepass.com.ar/events/experiencia-sabina-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "26509b5bf60ab42e"
+    },
+    {
+      "titulo": "Milena Salamanca",
+      "venue": "Casa Brava",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-20",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/07/5-Milena-Salamanca-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/milena-salamanca/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "a577e33e14ebda1e"
     },
     {
       "titulo": "Sonido 360°",
@@ -1285,6 +1342,48 @@
       "ticket_url": "https://livepass.com.ar/events/blues-motel-acustico-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "8cefd5cf250fc5b9"
+    },
+    {
+      "titulo": "Raúl Lavié",
+      "venue": "Complejo Cultural Atlas",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-21",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/raul-lavie-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/raul-lavie/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "ef3a958ede4778bf"
+    },
+    {
+      "titulo": "«El canto del cisne»",
+      "venue": "Teatro Caras y Caretas",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-21",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/El-canto-del-cisne-1-222x187.jpeg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/el-canto-del-cisne/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "1ccada7508478ed3"
+    },
+    {
+      "titulo": "Elena Roger",
+      "venue": "Teatro El Círculo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-21",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/07/elena-roger-2025-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/elena-roger/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "a248df3f29d9f6de"
     },
     {
       "titulo": "FESTIVAL PARDO: DIOSQUE, TANGO ASTRAL Y FILIPPO en Humboldt | Niceto Club (+18 años)",
@@ -1859,6 +1958,90 @@
       "ticket_url": "https://livepass.com.ar/events/hay-plan-la-nocturna-una-fiesta-de-noche",
       "fuente": "livepass.com.ar",
       "id": "743608666ede70e4"
+    },
+    {
+      "titulo": "Riendas libres",
+      "venue": "Asociación Japonesa",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-22",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2016/06/peteco_carabajal3-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/riendas-libres/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "a8ed44a03e11f62d"
+    },
+    {
+      "titulo": "Milagros Amud",
+      "venue": "Complejo Cultural Atlas",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-22",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/Milagros-Amud-222x187.png",
+      "ticket_url": "https://www.rosarioencartel.com.ar/milagros-amud/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "26455d89c9178530"
+    },
+    {
+      "titulo": "«Cortas»",
+      "venue": "Plataforma Lavardén - Gran Salón",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-22",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/Cortas-2026-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/cortas/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "c6bd317d0b66ef2d"
+    },
+    {
+      "titulo": "Sesiones en el Tercero",
+      "venue": "Cultural Fontanarrosa",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-22",
+      "fecha_fin": null,
+      "categoria": "Gratis",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/Sesiones-en-el-Tercero-fontanarrosa-222x187.png",
+      "ticket_url": "https://www.rosarioencartel.com.ar/sesiones-en-el-tercero/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "5aeeb39c6c888d2c"
+    },
+    {
+      "titulo": "«El escritor de todas las cosas»",
+      "venue": "Teatro Municipal La Comedia",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-22",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/05/dario-grandinetti-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/el-escritor-de-todas-las-cosas/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "17d2891212f2d4ce"
+    },
+    {
+      "titulo": "«Transensual»",
+      "venue": "Teatro Astengo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-22",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2022/05/favio-posca-2022-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/transensual/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "66c2e163d5d88c08"
     },
     {
       "titulo": "Las Pastillas del Abuelo - Salta",
@@ -2505,6 +2688,20 @@
       "id": "6fc2d03f4716d34f"
     },
     {
+      "titulo": "«Pirulo en el aire»",
+      "venue": "Teatro Astengo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-23",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/05/Pirulo-2026-1-1-222x187.png",
+      "ticket_url": "https://www.rosarioencartel.com.ar/pirulo-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "dd2d28e020075959"
+    },
+    {
       "titulo": "Las Pastillas del Abuelo - Tucumán",
       "venue": "Av. Colón 471",
       "ciudad": "Tucumán",
@@ -2967,6 +3164,20 @@
       "id": "0d5a3655d484bfe7"
     },
     {
+      "titulo": "Mario Montore",
+      "venue": "Teatro Astengo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-26",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/Mario-Montore_principal-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/mario-montore/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "c0324750af5d1257"
+    },
+    {
       "titulo": "Experiencia Queen",
       "venue": "Casino Magic",
       "ciudad": "Neuquén",
@@ -3203,6 +3414,20 @@
       "ticket_url": "https://livepass.com.ar/events/reina-madre-tributo-a-queen-en-cafe-berlin-2026-08-28",
       "fuente": "livepass.com.ar",
       "id": "e44d66e55198e54f"
+    },
+    {
+      "titulo": "«La cena de los tontos»",
+      "venue": "Teatro Broadway",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/05/la-cena-de-los-tontos-2026-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/la-cena-de-los-tontos/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "bf18593d2f64ed61"
     },
     {
       "titulo": "Los Abuelos de la Nada en Humboldt | Niceto Club (+18 años)",
@@ -3539,6 +3764,34 @@
       "ticket_url": "https://livepass.com.ar/events/luis-salinas-en-cafe-berlin-29-08",
       "fuente": "livepass.com.ar",
       "id": "1b2f8e86e6386dcc"
+    },
+    {
+      "titulo": "«Modelo Vivo Muerto»",
+      "venue": "Teatro Municipal La Comedia",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-29",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/01/modelo-vivo-o-muerto-2025-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/modelo-vivo-muerto/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "2d9c7c8caa0d8207"
+    },
+    {
+      "titulo": "Jorge Fandermole",
+      "venue": "Complejo Cultural Atlas",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-29",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2015/02/Jorge-Fandermole-2-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/jorge-fandermole-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "50b47e3a31772696"
     },
     {
       "titulo": "TARGET #19 VIERNES 28 AGOSTO @araozbuenosaires",
@@ -4001,6 +4254,34 @@
       "ticket_url": "https://livepass.com.ar/events/laura-molina-pilar-perez-decontardi-quartet-friends-en-ccnu",
       "fuente": "livepass.com.ar",
       "id": "e136dbc414f3fb67"
+    },
+    {
+      "titulo": "Flor Bertotti",
+      "venue": "Metropolitano",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-30",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/05/florencia-bertotti-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/flor-bertotti/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "96790273283d79c2"
+    },
+    {
+      "titulo": "«Muy a mi pesar»",
+      "venue": "Espacio Bravo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-08-30",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/Muy-a-mi-pesar-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/muy-a-mi-pesar/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "7901b7c1b57c9ff9"
     },
     {
       "titulo": "Cristobal Pesce en MDQ",
@@ -4659,6 +4940,62 @@
       "ticket_url": "https://livepass.com.ar/events/perinola-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "835f8d9c9566a2d1"
+    },
+    {
+      "titulo": "Andrés Calamaro",
+      "venue": "Metropolitano",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-04",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2016/09/Andres-Calamaro-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/andres-calamaro-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "0710ceb08ba9ae40"
+    },
+    {
+      "titulo": "Destino San Javier",
+      "venue": "Teatro El Círculo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-04",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2018/12/destino-san-javier-edit-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/destino-san-javier-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "2903744d72c258f3"
+    },
+    {
+      "titulo": "«El estado de la unión»",
+      "venue": "Teatro Municipal La Comedia",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-04",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/07/El-estado-de-la-union-teatro-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/el-estado-de-la-union/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "876fab3b9c71b2dd"
+    },
+    {
+      "titulo": "«This is Michael»",
+      "venue": "Teatro Broadway",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-04",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/01/lenny-jay-micheal-jackson-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/this-is-michael/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "4c5cf6c7dfa264e0"
     },
     {
       "titulo": "Kobra Kei - Leroy - Sergio Rotman y Asia del Sur Dj Set en Humboldt | Niceto Club",
@@ -6061,6 +6398,20 @@
       "id": "7f30bd83f8310c46"
     },
     {
+      "titulo": "«El bingo musical de Veto y Fer»",
+      "venue": "Complejo Cultural Atlas",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-11",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/01/El-bingo-musical-de-Veto-y-Fer-edit-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/el-bingo-musical-de-veto-y-fer/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "d16c4bc51444ab5a"
+    },
+    {
       "titulo": "Chinoy- concierto acústico junto a Julieta Díaz en Niceto Bar",
       "venue": "Niceto Bar",
       "ciudad": "Buenos Aires",
@@ -6437,6 +6788,48 @@
       "ticket_url": "https://livepass.com.ar/events/noches-de-teatro-modo-familia-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "494dc501bf8a1177"
+    },
+    {
+      "titulo": "No Te Va Gustar",
+      "venue": "Anfiteatro Municipal \"Humberto de Nito\"",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-12",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2015/04/ntvg-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/no-te-va-gustar-ntvg/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "febeeebfbcc9f9ec"
+    },
+    {
+      "titulo": "«El Yarco, hasta donde topa»",
+      "venue": "Multiespacio Nicasio",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-12",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/el-yarco-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/el-yarco-hasta-donde-topa/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "5582ba2b56d14e1b"
+    },
+    {
+      "titulo": "Palito Ortega",
+      "venue": "Teatro Broadway",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-12",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2016/01/Palito-Ortega-2021-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/palito-ortega-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "598f4f6cb967dd6a"
     },
     {
       "titulo": "CHINO SANCHEZ & NO TODO TRATA DE UNO TOUR 2026 (ARGENTINA) en Humboldt | Niceto Club (+18 años)",
@@ -6831,6 +7224,20 @@
       "id": "abf9a5c2707828c2"
     },
     {
+      "titulo": "«SUAVECITA»",
+      "venue": "Teatro Municipal La Comedia",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-13",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2024/03/suavecita-prensa-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/suavecita/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "5f06917fe81e11a3"
+    },
+    {
       "titulo": "Militantes del Clímax - El Spot",
       "venue": "Ruperto Mazza 556",
       "ciudad": "Buenos Aires",
@@ -7025,6 +7432,20 @@
       "ticket_url": "https://livepass.com.ar/events/dolar-blues-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "cfa15f495554b886"
+    },
+    {
+      "titulo": "«Solo como una perra»",
+      "venue": "Teatro Broadway",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-16",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/12/solo-como-una-perra-1-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/solo-como-una-perra/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "cf05dc47194b0114"
     },
     {
       "titulo": "Jorge Araujo",
@@ -7585,6 +8006,34 @@
       "ticket_url": "https://livepass.com.ar/events/mimi-maura-en-cafe-berlin-2026-09-19-20-30-00-0300",
       "fuente": "livepass.com.ar",
       "id": "0e7b8cea1b3d8b74"
+    },
+    {
+      "titulo": "«Monólogos Argentinos»",
+      "venue": "Teatro Broadway",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-19",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/08/Campi-2025-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/monologos-argentinos/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "829c34f7206c788d"
+    },
+    {
+      "titulo": "«Las hijas»",
+      "venue": "Teatro Astengo",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2026-09-19",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/06/las-hijas-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/las-hijas/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "9e3490a85a8f055d"
     },
     {
       "titulo": "Trabestia, drag club  18 SEP en Niceto Club (+18 años)",
@@ -15019,6 +15468,20 @@
       "ticket_url": "https://www.movistararena.com.ar/show/9a07aeaf-2aed-4e3d-a02e-62843ff9208e",
       "fuente": "movistararena.com.ar",
       "id": "18b15e18c8b8349e"
+    },
+    {
+      "titulo": "Crack Bang Boom",
+      "venue": "Diferentes ámbitos de Rosario",
+      "ciudad": "Rosario",
+      "fecha_inicio": "2027-08-13",
+      "fecha_fin": null,
+      "categoria": "eventos",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2015/08/Crack-Bang-Boom-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/convencion-internacional-de-historietas-crack-bang-boom-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "0fe5ca8bd3eae00e"
     },
     {
       "titulo": "Las Cosas Maravillosas",

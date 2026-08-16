@@ -23,7 +23,7 @@ python main.py
 
 Genera `backend/output/events.json`.
 
-## Fuentes cubiertas (8 de 9)
+## Fuentes cubiertas (9)
 
 | Sitio | Método |
 |---|---|
@@ -35,6 +35,7 @@ Genera `backend/output/events.json`.
 | TurboEntrada | API JSON del motor EntradaUno |
 | Movistar Arena | Playwright + JSON-LD schema.org |
 | entradauno.com | API JSON del motor EntradaUno (catálogo agregado, ~400 eventos de golpe) |
+| Rosario en Cartel | HTML server-rendered (hosting lento, tiene reintentos) |
 
 **Sin resolver:** Passline — tiene un challenge de Cloudflare que bloquea
 navegadores automatizados. Decisión consciente: no se intentó bypass, porque
