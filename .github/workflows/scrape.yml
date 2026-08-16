@@ -1,0 +1,40 @@
+name: Actualizar eventos
+
+on:
+  schedule:
+    # cada 6 horas (UTC). Ajustable.
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}  # permite correrlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        working-directory: backend
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Correr scrapers
+        working-directory: backend
+        run: python main.py
+
+      - name: Commitear events.json si cambió
+        run: |
+          git config user.name "eventos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add backend/output/events.json
+          git diff --cached --quiet && echo "Sin cambios" || git commit -m "Actualizar eventos [skip ci]"
+          git push

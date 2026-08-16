@@ -1,0 +1,125 @@
+"""Utilidades compartidas por todos los scrapers: modelo de evento normalizado,
+parseo de fechas en español y helpers de HTTP."""
+
+from __future__ import annotations
+
+import hashlib
+import re
+from dataclasses import dataclass, field, asdict
+from datetime import datetime, date
+from typing import Optional
+
+import requests
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
+DEFAULT_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept-Language": "es-AR,es;q=0.9,en;q=0.8",
+}
+
+MESES = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
+    "julio": 7, "agosto": 8, "septiembre": 9, "setiembre": 9, "octubre": 10,
+    "noviembre": 11, "diciembre": 12,
+}
+
+MESES_ABREV = {
+    "ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6,
+    "jul": 7, "ago": 8, "sep": 9, "set": 9, "oct": 10, "nov": 11, "dic": 12,
+}
+
+
+@dataclass
+class Event:
+    titulo: str
+    venue: Optional[str] = None
+    ciudad: Optional[str] = None
+    fecha_inicio: Optional[str] = None  # ISO 8601, ej "2026-09-12T21:00:00"
+    fecha_fin: Optional[str] = None
+    categoria: Optional[str] = None
+    precio_desde: Optional[float] = None
+    moneda: str = "ARS"
+    imagen_url: Optional[str] = None
+    ticket_url: Optional[str] = None
+    fuente: str = ""
+    id: str = field(default="")
+
+    def __post_init__(self):
+        if not self.id:
+            base = f"{self.fuente}|{self.titulo}|{self.fecha_inicio or ''}"
+            self.id = hashlib.sha1(base.encode("utf-8")).hexdigest()[:16]
+
+    def to_dict(self):
+        return asdict(self)
+
+
+def fetch_html(url: str, timeout: int = 20) -> str:
+    resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
+    resp.raise_for_status()
+    return resp.text
+
+
+def parse_fecha_larga(texto: str, anio_default: Optional[int] = None) -> Optional[str]:
+    """Parsea fechas tipo '29 de agosto, 2026' o '15 octubre 2026' -> ISO date string."""
+    if not texto:
+        return None
+    texto = texto.strip().lower()
+    m = re.search(r"(\d{1,2})\s*(?:de\s*)?([a-záéíóú]+)[,]?\s*(\d{4})?", texto)
+    if not m:
+        return None
+    dia, mes_txt, anio_txt = m.groups()
+    mes = MESES.get(mes_txt)
+    if not mes:
+        return None
+    anio = int(anio_txt) if anio_txt else (anio_default or _infer_year(mes, int(dia)))
+    try:
+        return date(anio, mes, int(dia)).isoformat()
+    except ValueError:
+        return None
+
+
+def parse_fecha_abreviada(texto: str, hoy: Optional[date] = None) -> Optional[str]:
+    """Parsea fechas tipo '05 SEP' o '20 OCT al 21 OCT' (usa la primera) -> ISO date."""
+    if not texto:
+        return None
+    m = re.search(r"(\d{1,2})\s+([A-Za-záéíóú]{3,})", texto.strip())
+    if not m:
+        return None
+    dia, mes_txt = m.groups()
+    mes = MESES_ABREV.get(mes_txt.lower()[:3])
+    if not mes:
+        return None
+    anio = _infer_year(mes, int(dia), hoy)
+    try:
+        return date(anio, mes, int(dia)).isoformat()
+    except ValueError:
+        return None
+
+
+def _infer_year(mes: int, dia: int, hoy: Optional[date] = None) -> int:
+    """Si el sitio no da el año, asumimos el próximo que caiga esa fecha (nunca en el pasado)."""
+    hoy = hoy or date.today()
+    anio = hoy.year
+    try:
+        candidata = date(anio, mes, dia)
+    except ValueError:
+        candidata = date(anio, mes, 1)
+    if candidata < hoy:
+        anio += 1
+    return anio
+
+
+def dedupe(events: list[Event]) -> list[Event]:
+    seen = set()
+    result = []
+    for ev in events:
+        key = (ev.titulo.strip().lower(), (ev.fecha_inicio or "")[:10], (ev.venue or "").strip().lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(ev)
+    return result
