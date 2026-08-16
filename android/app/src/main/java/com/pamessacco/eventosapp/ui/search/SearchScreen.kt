@@ -58,12 +58,12 @@ fun SearchScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit)
                 singleLine = true,
             )
 
-            val localidades = viewModel.localidadesDisponibles(state)
+            val provincias = viewModel.provinciasDisponibles(state)
             FiltroDesplegable(
-                etiqueta = "Localidad",
-                opciones = localidades,
-                seleccionado = state.localidadFiltro,
-                onSeleccionar = viewModel::setLocalidadFiltro,
+                etiqueta = "Provincia",
+                opciones = provincias,
+                seleccionado = state.provinciaFiltro,
+                onSeleccionar = viewModel::setProvinciaFiltro,
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
             )
 

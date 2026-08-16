@@ -38,6 +38,7 @@ class Event:
     titulo: str
     venue: Optional[str] = None
     ciudad: Optional[str] = None
+    provincia: Optional[str] = None
     fecha_inicio: Optional[str] = None  # ISO 8601, ej "2026-09-12T21:00:00"
     fecha_fin: Optional[str] = None
     categoria: Optional[str] = None
@@ -53,6 +54,8 @@ class Event:
             base = f"{self.fuente}|{self.titulo}|{self.fecha_inicio or ''}"
             self.id = hashlib.sha1(base.encode("utf-8")).hexdigest()[:16]
         self.ciudad = normalizar_ciudad(self.ciudad) if (self.ciudad or "").strip() else None
+        if not self.provincia and self.ciudad:
+            self.provincia = PROVINCIA_POR_CIUDAD.get(_sin_acentos(self.ciudad).lower())
 
     def to_dict(self):
         return asdict(self)
@@ -89,6 +92,58 @@ def normalizar_ciudad(ciudad: str) -> str:
     if limpio.isupper() or limpio.islower():
         return limpio.title()
     return limpio
+
+
+# Mapeo ciudad/localidad (ya normalizada) -> provincia argentina, para el
+# filtro de la app. Clave sin tildes y en minúscula. Lugares que no
+# reconocemos quedan con provincia=None (ej. "Costa Argentina", "Montevideo"
+# que es Uruguay) y simplemente no aparecen si se filtra por provincia.
+_PROVINCIA_POR_CIUDAD_RAW = {
+    "CABA": "CABA",
+    "Buenos Aires": "Buenos Aires",
+    "Bahía Blanca": "Buenos Aires",
+    "Berisso": "Buenos Aires",
+    "Canning": "Buenos Aires",
+    "Carmen de Patagones": "Buenos Aires",
+    "General Rodríguez": "Buenos Aires",
+    "La Plata": "Buenos Aires",
+    "Lanus": "Buenos Aires",
+    "Lomas de Zamora": "Buenos Aires",
+    "Martinez": "Buenos Aires",
+    "Monte Grande": "Buenos Aires",
+    "Ramos Mejía": "Buenos Aires",
+    "San Isidro": "Buenos Aires",
+    "San Justo": "Buenos Aires",
+    "San Nicolás de Los Arroyos": "Buenos Aires",
+    "Temperley": "Buenos Aires",
+    "Tigre": "Buenos Aires",
+    "Tornquist": "Buenos Aires",
+    "Catamarca": "Catamarca",
+    "Chubut": "Chubut",
+    "Esquel": "Chubut",
+    "Pto. Madryn": "Chubut",
+    "Trelew": "Chubut",
+    "Córdoba": "Córdoba",
+    "Corrientes": "Corrientes",
+    "Entre Ríos": "Entre Ríos",
+    "Mendoza": "Mendoza",
+    "Neuquén": "Neuquén",
+    "Plottier": "Neuquén",
+    "Cipolletti": "Río Negro",
+    "General Roca": "Río Negro",
+    "Villa Regina": "Río Negro",
+    "Salta": "Salta",
+    "Ibarlucea": "Santa Fe",
+    "Rosario": "Santa Fe",
+    "Santa Fe": "Santa Fe",
+    "Santiago del Estero": "Santiago del Estero",
+    "Río Grande": "Tierra del Fuego",
+    "Ushuaia": "Tierra del Fuego",
+    "Tucumán": "Tucumán",
+}
+PROVINCIA_POR_CIUDAD = {
+    _sin_acentos(k).lower(): v for k, v in _PROVINCIA_POR_CIUDAD_RAW.items()
+}
 
 
 def fetch_html(url: str, timeout: int = 20) -> str:

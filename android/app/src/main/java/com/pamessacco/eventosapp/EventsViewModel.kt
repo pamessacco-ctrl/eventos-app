@@ -19,7 +19,7 @@ data class UiState(
     val usandoCache: Boolean = false,
     val ultimaActualizacion: String? = null,
     val busqueda: String = "",
-    val localidadFiltro: String? = null,
+    val provinciaFiltro: String? = null,
 )
 
 class EventsViewModel(application: Application) : AndroidViewModel(application) {
@@ -65,18 +65,18 @@ class EventsViewModel(application: Application) : AndroidViewModel(application) 
         _state.update { it.copy(busqueda = texto) }
     }
 
-    fun setLocalidadFiltro(localidad: String?) {
-        _state.update { it.copy(localidadFiltro = localidad) }
+    fun setProvinciaFiltro(provincia: String?) {
+        _state.update { it.copy(provinciaFiltro = provincia) }
     }
 
-    /** Eventos que matchean los filtros activos (búsqueda + localidad), ordenados por fecha. */
+    /** Eventos que matchean los filtros activos (búsqueda + provincia), ordenados por fecha. */
     fun eventosFiltrados(state: UiState): List<EventItem> {
         val texto = state.busqueda.trim().lowercase()
         val hoy = LocalDate.now()
         return state.events
             .filter { ev ->
                 (ev.fechaInicio == null || !ev.fechaInicio.toLocalDate().isBefore(hoy)) &&
-                    (state.localidadFiltro == null || ev.ciudad == state.localidadFiltro) &&
+                    (state.provinciaFiltro == null || ev.provincia == state.provinciaFiltro) &&
                     (texto.isEmpty() ||
                         ev.titulo.lowercase().contains(texto) ||
                         (ev.venue?.lowercase()?.contains(texto) == true) ||
@@ -85,9 +85,9 @@ class EventsViewModel(application: Application) : AndroidViewModel(application) 
             .sortedBy { it.fechaInicio }
     }
 
-    /** Localidades distintas disponibles entre los eventos cargados, para el desplegable. */
-    fun localidadesDisponibles(state: UiState): List<String> =
-        state.events.mapNotNull { it.ciudad }.distinct().sorted()
+    /** Provincias distintas disponibles entre los eventos cargados, para el desplegable. */
+    fun provinciasDisponibles(state: UiState): List<String> =
+        state.events.mapNotNull { it.provincia }.distinct().sorted()
 
     fun eventoPorId(id: String): EventItem? = _state.value.events.firstOrNull { it.id == id }
 }
