@@ -20,8 +20,6 @@ import com.pamessacco.eventosapp.ui.components.EventCard
 import com.pamessacco.eventosapp.ui.components.FeaturedEventCard
 import java.time.LocalDate
 
-private const val CANTIDAD_DESTACADOS = 10
-
 @Composable
 fun HomeScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -44,44 +42,51 @@ fun HomeScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
         return
     }
 
-    val destacados = proximos.take(CANTIDAD_DESTACADOS)
-    val resto = proximos.drop(CANTIDAD_DESTACADOS)
+    // Destacados = artistas internacionales (lista curada en el backend), no
+    // simplemente "lo más próximo en fecha".
+    val destacados = proximos.filter { it.esInternacional }
 
     LazyColumn(modifier = Modifier.fillMaxSize()) {
         item {
             Text(
-                text = "Destacados",
+                text = "Destacados internacionales",
                 style = MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
             )
-            LazyRow(
-                contentPadding = PaddingValues(horizontal = 16.dp),
-                horizontalArrangement = Arrangement.spacedBy(12.dp),
-            ) {
-                items(destacados, key = { "destacado-${it.id}" }) { evento ->
-                    FeaturedEventCard(evento = evento, onClick = { onEventoClick(evento) })
+            if (destacados.isEmpty()) {
+                Text(
+                    text = "No hay artistas internacionales próximamente",
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.padding(horizontal = 16.dp),
+                )
+            } else {
+                LazyRow(
+                    contentPadding = PaddingValues(horizontal = 16.dp),
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    items(destacados, key = { "destacado-${it.id}" }) { evento ->
+                        FeaturedEventCard(evento = evento, onClick = { onEventoClick(evento) })
+                    }
                 }
             }
             Spacer(modifier = Modifier.height(16.dp))
         }
 
-        if (resto.isNotEmpty()) {
-            item {
-                Text(
-                    text = "Próximos eventos",
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold,
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
-                )
-            }
-            items(resto, key = { it.id }) { evento ->
-                EventCard(
-                    evento = evento,
-                    onClick = { onEventoClick(evento) },
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
-                )
-            }
+        item {
+            Text(
+                text = "Próximos eventos",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+            )
+        }
+        items(proximos, key = { it.id }) { evento ->
+            EventCard(
+                evento = evento,
+                onClick = { onEventoClick(evento) },
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
+            )
         }
 
         item { Spacer(modifier = Modifier.height(24.dp)) }
