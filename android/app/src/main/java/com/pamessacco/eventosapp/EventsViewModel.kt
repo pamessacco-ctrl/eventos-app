@@ -6,11 +6,14 @@ import androidx.lifecycle.viewModelScope
 import com.pamessacco.eventosapp.data.EventItem
 import com.pamessacco.eventosapp.data.EventsRepository
 import com.pamessacco.eventosapp.data.EventsResult
+import com.pamessacco.eventosapp.data.NewEventsStore
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import java.time.LocalDate
+
+private const val DIAS_RECIENTES = 3L
 
 data class UiState(
     val loading: Boolean = true,
@@ -20,10 +23,12 @@ data class UiState(
     val ultimaActualizacion: String? = null,
     val busqueda: String = "",
     val provinciaFiltro: String? = null,
+    val primeraAparicion: Map<String, LocalDate> = emptyMap(),
 )
 
 class EventsViewModel(application: Application) : AndroidViewModel(application) {
     private val repo = EventsRepository(application)
+    private val nuevosStore = NewEventsStore(application)
 
     private val _state = MutableStateFlow(UiState())
     val state: StateFlow<UiState> = _state
@@ -40,14 +45,18 @@ class EventsViewModel(application: Application) : AndroidViewModel(application) 
         viewModelScope.launch {
             _state.update { it.copy(loading = true, errorMessage = null) }
             when (val result = repo.refresh()) {
-                is EventsResult.Success -> _state.update {
-                    it.copy(
-                        loading = false,
-                        events = result.events,
-                        usandoCache = false,
-                        ultimaActualizacion = result.generadoIso,
-                        errorMessage = null,
-                    )
+                is EventsResult.Success -> {
+                    val primeraAparicion = nuevosStore.registrarYObtener(result.events.map { it.id })
+                    _state.update {
+                        it.copy(
+                            loading = false,
+                            events = result.events,
+                            usandoCache = false,
+                            ultimaActualizacion = result.generadoIso,
+                            errorMessage = null,
+                            primeraAparicion = primeraAparicion,
+                        )
+                    }
                 }
                 is EventsResult.Error -> _state.update {
                     it.copy(
@@ -88,6 +97,17 @@ class EventsViewModel(application: Application) : AndroidViewModel(application) 
     /** Provincias distintas disponibles entre los eventos cargados, para el desplegable. */
     fun provinciasDisponibles(state: UiState): List<String> =
         state.events.mapNotNull { it.provincia }.distinct().sorted()
+
+    /**
+     * Eventos (dentro de la lista dada, ya próximos) cuya primera aparición
+     * en este dispositivo fue dentro de los últimos [DIAS_RECIENTES] días.
+     */
+    fun eventosRecienAgregados(state: UiState, proximos: List<EventItem>): List<EventItem> {
+        val limite = LocalDate.now().minusDays(DIAS_RECIENTES)
+        return proximos
+            .filter { ev -> (state.primeraAparicion[ev.id] ?: LocalDate.MIN) >= limite }
+            .sortedByDescending { state.primeraAparicion[it.id] }
+    }
 
     fun eventoPorId(id: String): EventItem? = _state.value.events.firstOrNull { it.id == id }
 }
