@@ -25,7 +25,6 @@ private val DIAS_SEMANA = listOf("L", "M", "M", "J", "V", "S", "D")
 @Composable
 fun MonthCalendar(
     mes: YearMonth,
-    diaSeleccionado: LocalDate?,
     diasConEventos: Set<LocalDate>,
     onDiaClick: (LocalDate) -> Unit,
     modifier: Modifier = Modifier,
@@ -65,7 +64,6 @@ fun MonthCalendar(
                             DiaCelda(
                                 fecha = fecha,
                                 esHoy = fecha == hoy,
-                                seleccionado = fecha == diaSeleccionado,
                                 tieneEventos = fecha in diasConEventos,
                                 onClick = { onDiaClick(fecha) },
                             )
@@ -81,15 +79,10 @@ fun MonthCalendar(
 private fun DiaCelda(
     fecha: LocalDate,
     esHoy: Boolean,
-    seleccionado: Boolean,
     tieneEventos: Boolean,
     onClick: () -> Unit,
 ) {
-    val fondoColor = when {
-        seleccionado -> EventosRosa
-        esHoy -> EventosRosa.copy(alpha = 0.25f)
-        else -> Color.Transparent
-    }
+    val fondoColor = if (esHoy) EventosRosa.copy(alpha = 0.25f) else Color.Transparent
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -101,14 +94,14 @@ private fun DiaCelda(
     ) {
         Text(
             text = fecha.dayOfMonth.toString(),
-            fontWeight = if (esHoy || seleccionado) FontWeight.Bold else FontWeight.Normal,
+            fontWeight = if (esHoy) FontWeight.Bold else FontWeight.Normal,
         )
         if (tieneEventos) {
             Box(
                 modifier = Modifier
                     .size(4.dp)
                     .clip(CircleShape)
-                    .background(if (seleccionado) Color.White else EventosRosa),
+                    .background(EventosRosa),
             )
         }
     }

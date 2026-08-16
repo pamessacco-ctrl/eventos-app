@@ -22,7 +22,11 @@ import java.time.LocalDate
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CalendarScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
+fun CalendarScreen(
+    viewModel: EventsViewModel,
+    onEventoClick: (EventItem) -> Unit,
+    onDiaClick: (LocalDate) -> Unit,
+) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
     Scaffold(
@@ -79,29 +83,29 @@ fun CalendarScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Uni
 
             MonthCalendar(
                 mes = state.mesVisible,
-                diaSeleccionado = state.diaSeleccionado,
                 diasConEventos = diasConEventos,
-                onDiaClick = { dia ->
-                    viewModel.seleccionarDia(if (dia == state.diaSeleccionado) null else dia)
-                },
+                onDiaClick = onDiaClick,
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp),
             )
 
             Spacer(modifier = Modifier.height(8.dp))
 
-            val listaAMostrar = eventosParaLista(filtrados, state.diaSeleccionado)
+            val proximos = filtrados
+                .filter { it.fechaInicio != null && !it.fechaInicio!!.toLocalDate().isBefore(LocalDate.now()) }
+                .sortedBy { it.fechaInicio }
+                .take(50)
 
             if (state.loading && state.events.isEmpty()) {
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     CircularProgressIndicator()
                 }
-            } else if (listaAMostrar.isEmpty()) {
+            } else if (proximos.isEmpty()) {
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     Text("No hay eventos para mostrar", style = MaterialTheme.typography.bodyMedium)
                 }
             } else {
                 Text(
-                    text = if (state.diaSeleccionado != null) "Eventos ese día" else "Próximos eventos",
+                    text = "Próximos eventos",
                     style = MaterialTheme.typography.labelLarge,
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
                 )
@@ -110,24 +114,12 @@ fun CalendarScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Uni
                     contentPadding = PaddingValues(horizontal = 16.dp, vertical = 4.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
                 ) {
-                    items(listaAMostrar, key = { it.id }) { evento ->
+                    items(proximos, key = { it.id }) { evento ->
                         EventCard(evento = evento, onClick = { onEventoClick(evento) })
                     }
                     item { Spacer(modifier = Modifier.height(24.dp)) }
                 }
             }
         }
-    }
-}
-
-private fun eventosParaLista(eventos: List<EventItem>, diaSeleccionado: LocalDate?): List<EventItem> {
-    val ordenados = eventos
-        .filter { it.fechaInicio != null }
-        .sortedBy { it.fechaInicio }
-    return if (diaSeleccionado != null) {
-        ordenados.filter { it.fechaInicio!!.toLocalDate() == diaSeleccionado }
-    } else {
-        val hoy = LocalDate.now()
-        ordenados.filter { !it.fechaInicio!!.toLocalDate().isBefore(hoy) }.take(50)
     }
 }

@@ -20,7 +20,6 @@ data class UiState(
     val usandoCache: Boolean = false,
     val ultimaActualizacion: String? = null,
     val mesVisible: YearMonth = YearMonth.now(),
-    val diaSeleccionado: LocalDate? = null,
     val busqueda: String = "",
     val fuenteFiltro: String? = null,
 )
@@ -65,11 +64,7 @@ class EventsViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     fun cambiarMes(delta: Long) {
-        _state.update { it.copy(mesVisible = it.mesVisible.plusMonths(delta), diaSeleccionado = null) }
-    }
-
-    fun seleccionarDia(dia: LocalDate?) {
-        _state.update { it.copy(diaSeleccionado = dia) }
+        _state.update { it.copy(mesVisible = it.mesVisible.plusMonths(delta)) }
     }
 
     fun setBusqueda(texto: String) {
@@ -99,4 +94,10 @@ class EventsViewModel(application: Application) : AndroidViewModel(application) 
             .toSet()
 
     fun eventoPorId(id: String): EventItem? = _state.value.events.firstOrNull { it.id == id }
+
+    /** Eventos de un día puntual, respetando los filtros de búsqueda/fuente activos. */
+    fun eventosDelDia(dia: LocalDate): List<EventItem> =
+        eventosFiltrados(_state.value)
+            .filter { it.fechaInicio?.toLocalDate() == dia }
+            .sortedBy { it.fechaInicio }
 }

@@ -11,8 +11,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.pamessacco.eventosapp.sync.SyncScheduler
 import com.pamessacco.eventosapp.ui.calendar.CalendarScreen
+import com.pamessacco.eventosapp.ui.calendar.DayEventsScreen
 import com.pamessacco.eventosapp.ui.detail.EventDetailScreen
 import com.pamessacco.eventosapp.ui.theme.EventosAppTheme
+import java.time.LocalDate
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,7 +38,19 @@ fun EventosNavHost() {
             CalendarScreen(
                 viewModel = viewModel,
                 onEventoClick = { evento -> navController.navigate("detail/${evento.id}") },
+                onDiaClick = { dia -> navController.navigate("day/$dia") },
             )
+        }
+        composable("day/{fecha}") { backStackEntry ->
+            val fecha = backStackEntry.arguments?.getString("fecha")?.let { LocalDate.parse(it) }
+            if (fecha != null) {
+                DayEventsScreen(
+                    dia = fecha,
+                    eventos = viewModel.eventosDelDia(fecha),
+                    onBack = { navController.popBackStack() },
+                    onEventoClick = { evento -> navController.navigate("detail/${evento.id}") },
+                )
+            }
         }
         composable("detail/{eventId}") { backStackEntry ->
             val id = backStackEntry.arguments?.getString("eventId")
