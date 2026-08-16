@@ -25,7 +25,7 @@ data class EventDto(
     val imagen_url: String? = null,
     val ticket_url: String? = null,
     val fuente: String = "",
-    val es_internacional: Boolean = false,
+    val artista_internacional: String? = null,
 )
 
 @Serializable
@@ -50,7 +50,7 @@ data class EventItem(
     val imagenUrl: String?,
     val ticketUrl: String?,
     val fuente: String,
-    val esInternacional: Boolean,
+    val artistaInternacional: String?,
 )
 
 fun EventDto.toEventItem(): EventItem {
@@ -69,7 +69,7 @@ fun EventDto.toEventItem(): EventItem {
         imagenUrl = imagen_url,
         ticketUrl = ticket_url,
         fuente = fuente,
-        esInternacional = es_internacional,
+        artistaInternacional = artista_internacional?.trim()?.takeIf { it.isNotEmpty() },
     )
 }
 

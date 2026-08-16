@@ -11,7 +11,7 @@ from typing import Optional
 
 import requests
 
-from .artistas_internacionales import es_internacional
+from .artistas_internacionales import artista_internacional
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -50,7 +50,7 @@ class Event:
     ticket_url: Optional[str] = None
     fuente: str = ""
     id: str = field(default="")
-    es_internacional: bool = field(default=False)
+    artista_internacional: Optional[str] = field(default=None)
 
     def __post_init__(self):
         if not self.id:
@@ -59,7 +59,7 @@ class Event:
         self.ciudad = normalizar_ciudad(self.ciudad) if (self.ciudad or "").strip() else None
         if not self.provincia and self.ciudad:
             self.provincia = PROVINCIA_POR_CIUDAD.get(_sin_acentos(self.ciudad).lower())
-        self.es_internacional = es_internacional(self.titulo)
+        self.artista_internacional = artista_internacional(self.titulo)
 
     def to_dict(self):
         return asdict(self)

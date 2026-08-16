@@ -20,6 +20,8 @@ import com.pamessacco.eventosapp.ui.components.EventCard
 import com.pamessacco.eventosapp.ui.components.FeaturedEventCard
 import java.time.LocalDate
 
+private const val CANTIDAD_DESTACADOS = 5
+
 @Composable
 fun HomeScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -42,9 +44,15 @@ fun HomeScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
         return
     }
 
-    // Destacados = artistas internacionales (lista curada en el backend), no
-    // simplemente "lo más próximo en fecha".
-    val destacados = proximos.filter { it.esInternacional }
+    // Destacados = artistas internacionales (lista curada en el backend),
+    // agrupados por artista (un mismo artista puede tocar en varias
+    // provincias y no queremos que ocupe varios lugares del carrusel) y
+    // limitados a un puñado. Se recalcula solo cada vez que cambian los
+    // eventos cargados (nueva sincronización), no hace falta nada manual.
+    val destacados = proximos
+        .filter { it.artistaInternacional != null }
+        .distinctBy { it.artistaInternacional }
+        .take(CANTIDAD_DESTACADOS)
 
     LazyColumn(modifier = Modifier.fillMaxSize()) {
         item {
