@@ -11,7 +11,7 @@ from typing import Optional
 
 import requests
 
-from .artistas_internacionales import artista_internacional
+from .artistas_internacionales import artista_internacional, prioridad_destacado
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -51,6 +51,7 @@ class Event:
     fuente: str = ""
     id: str = field(default="")
     artista_internacional: Optional[str] = field(default=None)
+    prioridad_destacado: Optional[int] = field(default=None)
 
     def __post_init__(self):
         if not self.id:
@@ -60,6 +61,7 @@ class Event:
         if not self.provincia and self.ciudad:
             self.provincia = PROVINCIA_POR_CIUDAD.get(_sin_acentos(self.ciudad).lower())
         self.artista_internacional = artista_internacional(self.titulo)
+        self.prioridad_destacado = prioridad_destacado(self.artista_internacional)
 
     def to_dict(self):
         return asdict(self)

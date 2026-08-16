@@ -12,66 +12,69 @@ alguno, se suma acá.
 Cada entrada es (nombre_canónico, patrón_regex). El nombre canónico es el
 que se usa para agrupar/mostrar; el patrón es lo que se busca en el título
 del evento (bordes de palabra, insensible a mayúsculas).
+
+EL ORDEN DE LA LISTA IMPORTA: se usa como ranking de relevancia para elegir
+los "Destacados" de la app (los primeros de la lista salen priorizados por
+sobre los últimos, sin importar qué tan pronto sea cada show). Es una
+priorización manual y subjetiva ("cuán masivo/reconocido es este acto"), no
+un dato objetivo — se puede reordenar libremente.
 """
 
 import re
 
 ARTISTAS_INTERNACIONALES = [
-    # rock / pop internacional
+    # headliners globales de primer nivel
+    ("Ed Sheeran", "Ed Sheeran"),
+    ("Iron Maiden", "Iron Maiden"),
     ("Robbie Williams", "Robbie Williams"),
+    ("Deep Purple", "Deep Purple"),
+    ("Marc Anthony", "Marc Anthony"),
     ("Black Eyed Peas", "Black Eyed Peas"),
+    ("David Bisbal", "David Bisbal"),
+    ("ZZ Top", "ZZ Top"),
+    ("Rush", "Rush"),
+    ("Def Leppard", "Def Leppard"),
+    ("Slayer", "Slayer"),
+    ("Cypress Hill", "Cypress Hill"),
+    ("Ozuna", "Ozuna"),
+    ("Camilo", r"Camilo(?!\s+Nicolas)"),
     ("ZAYN", "ZAYN"),
     ("Louis Tomlinson", "Louis Tomlinson"),
-    ("Ed Sheeran", "Ed Sheeran"),
-    ("Deep Purple", "Deep Purple"),
-    ("Def Leppard", "Def Leppard"),
     ("Die Toten Hosen", "Die Toten Hosen"),
-    ("Iron Maiden", "Iron Maiden"),
-    ("Rush", "Rush"),
-    ("Slayer", "Slayer"),
-    ("ZZ Top", "ZZ Top"),
+    ("Eros Ramazzotti", "Eros Ramazzotti"),
+    ("Helloween", "Helloween"),
+    ("Ronnie Wood", "Ronnie Wood"),
+    ("Fatboy Slim", "Fatboy Slim"),
+    ("Reik", "Reik"),
+    ("Sin Bandera", "Sin Bandera"),
+    ("Jesse & Joy", r"Jesse (?:&|y) Joy"),
+    ("La Oreja de Van Gogh", "La Oreja de Van Gogh"),
+    ("Grupo Frontera", "Grupo Frontera"),
+    ("Enrique Bunbury", "Enrique Bunbury"),
+    ("Sergio Dalma", "Sergio Dalma"),
+    ("José Carreras", "Jos[eé] Carreras"),
     ("A Perfect Circle", "A Perfect Circle"),
     ("Puscifer", "Puscifer"),
-    ("Cypress Hill", "Cypress Hill"),
-    ("Fatboy Slim", "Fatboy Slim"),
     ("Jack Johnson", "Jack Johnson"),
+    ("Babymetal", "Babymetal"),
+    ("Morat", "Morat"),
+    ("Cultura Profética", "Cultura Prof[eé]tica"),
+    ("Arcángel", "Arc[aá]ngel"),
+    ("Kany García", "Kany Garc[ií]a"),
+    ("Aitana", "Aitana"),
+    ("Myriam Hernández", "Myriam Hern[aá]ndez"),
+    ("Alex Ubago", "Alex Ubago"),
+    ("Rawayana", "Rawayana"),
+    ("Bad Gyal", "Bad Gyal"),
+    ("Moscow State Ballet", "Moscow State Ballet"),
+    # actos más de nicho (electrónica/DJs, indie, clásica)
     ("Chapterhouse", "Chapterhouse"),
     ("Feine Sahne Fischfilet", "Feine Sahne Fischfilet"),
     ("Giant Rooks", "Giant Rooks"),
-    ("Babymetal", "Babymetal"),
-    ("Helloween", "Helloween"),
-    ("Eros Ramazzotti", "Eros Ramazzotti"),
-    ("Ronnie Wood", "Ronnie Wood"),
-    # latino / reggaetón / pop en español (de afuera de Argentina)
-    ("Ozuna", "Ozuna"),
-    ("Camilo", r"Camilo(?!\s+Nicolas)"),
-    ("Marc Anthony", "Marc Anthony"),
-    ("Reik", "Reik"),
-    ("Jesse & Joy", r"Jesse (?:&|y) Joy"),
-    ("Sin Bandera", "Sin Bandera"),
-    ("Grupo Frontera", "Grupo Frontera"),
-    ("Bad Gyal", "Bad Gyal"),
-    ("Morat", "Morat"),
-    ("Cultura Profética", "Cultura Prof[eé]tica"),
-    ("Rawayana", "Rawayana"),
-    ("Arcángel", "Arc[aá]ngel"),
-    ("Kany García", "Kany Garc[ií]a"),
-    ("Myriam Hernández", "Myriam Hern[aá]ndez"),
-    # españoles
-    ("David Bisbal", "David Bisbal"),
-    ("José Carreras", "Jos[eé] Carreras"),
-    ("Alex Ubago", "Alex Ubago"),
-    ("Aitana", "Aitana"),
-    ("Enrique Bunbury", "Enrique Bunbury"),
-    ("Sergio Dalma", "Sergio Dalma"),
-    ("La Oreja de Van Gogh", "La Oreja de Van Gogh"),
-    # electrónica / DJs internacionales
     ("James Zabiela", "James Zabiela"),
     ("John Digweed", "John Digweed"),
     ("Guy J", "Guy J"),
     ("PJ Morton", "PJ Morton"),
-    # otros / danza / clásica
-    ("Moscow State Ballet", "Moscow State Ballet"),
     ("Cirkus Cirkör", "Cirkus Cirk[oö]r"),
     ("Jakub Józef Orliński", "Jakub J[oó]zef Orli[nń]ski"),
 ]
@@ -80,6 +83,8 @@ _PATRONES = [
     (nombre, re.compile(rf"\b{patron}\b", re.IGNORECASE))
     for nombre, patron in ARTISTAS_INTERNACIONALES
 ]
+
+_PRIORIDAD = {nombre: idx for idx, (nombre, _) in enumerate(ARTISTAS_INTERNACIONALES)}
 
 
 def artista_internacional(titulo: str) -> str | None:
@@ -91,6 +96,14 @@ def artista_internacional(titulo: str) -> str | None:
         if patron.search(titulo):
             return nombre
     return None
+
+
+def prioridad_destacado(nombre_artista: str | None) -> int | None:
+    """Posición del artista en el ranking de relevancia (0 = el más masivo).
+    None si no es un artista internacional reconocido."""
+    if nombre_artista is None:
+        return None
+    return _PRIORIDAD.get(nombre_artista)
 
 
 def es_internacional(titulo: str) -> bool:

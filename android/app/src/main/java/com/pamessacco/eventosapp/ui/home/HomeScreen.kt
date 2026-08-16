@@ -46,12 +46,16 @@ fun HomeScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
 
     // Destacados = artistas internacionales (lista curada en el backend),
     // agrupados por artista (un mismo artista puede tocar en varias
-    // provincias y no queremos que ocupe varios lugares del carrusel) y
-    // limitados a un puñado. Se recalcula solo cada vez que cambian los
-    // eventos cargados (nueva sincronización), no hace falta nada manual.
+    // provincias y no queremos que ocupe varios lugares del carrusel), con
+    // el show más próximo de cada uno como representante, pero ORDENADOS
+    // por qué tan destacado/masivo es el artista (prioridadDestacado, ránking
+    // curado en el backend) y no por fecha. Se recalcula solo cada vez que
+    // cambian los eventos cargados (nueva sincronización), no hace falta
+    // nada manual.
     val destacados = proximos
         .filter { it.artistaInternacional != null }
         .distinctBy { it.artistaInternacional }
+        .sortedBy { it.prioridadDestacado }
         .take(CANTIDAD_DESTACADOS)
 
     LazyColumn(modifier = Modifier.fillMaxSize()) {
