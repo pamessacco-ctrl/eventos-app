@@ -29,11 +29,14 @@ def _parse_fecha(desde_fecha: str) -> str | None:
 
 def _split_lugar(lugar: str) -> tuple[str | None, str | None]:
     # formato típico: "El Padilla, Temperley, Buenos Aires" -> venue, ciudad
+    # (nos quedamos solo con "Temperley", no con "Temperley, Buenos Aires",
+    # para que el filtro de localidad de la app no quede lleno de variantes
+    # compuestas con la provincia repetida en casi todas)
     if not lugar:
         return None, None
     partes = [p.strip() for p in lugar.split(",") if p.strip()]
     if len(partes) >= 2:
-        return partes[0], ", ".join(partes[1:])
+        return partes[0], partes[1]
     return partes[0] if partes else None, None
 
 

@@ -52,9 +52,43 @@ class Event:
         if not self.id:
             base = f"{self.fuente}|{self.titulo}|{self.fecha_inicio or ''}"
             self.id = hashlib.sha1(base.encode("utf-8")).hexdigest()[:16]
+        self.ciudad = normalizar_ciudad(self.ciudad) if (self.ciudad or "").strip() else None
 
     def to_dict(self):
         return asdict(self)
+
+
+# Alias de ciudades: distintos sitios llaman distinto al mismo lugar
+# (may/minúsculas, "CABA" vs el nombre completo, "Provincia de X" vs "X").
+# Todo en minúscula sin acentos como clave, para matchear sin importar cómo
+# venga escrito.
+_ALIAS_CIUDAD = {
+    "caba": "CABA",
+    "ciudad autonoma de buenos aires": "CABA",
+    "capital federal": "CABA",
+    "provincia de cordoba": "Córdoba",
+    "provincia de mendoza": "Mendoza",
+    "provincia de santa fe": "Santa Fe",
+    "provincia de buenos aires": "Buenos Aires",
+}
+
+
+def _sin_acentos(texto: str) -> str:
+    reemplazos = str.maketrans("áéíóúñÁÉÍÓÚÑ", "aeiounAEIOUN")
+    return texto.translate(reemplazos)
+
+
+def normalizar_ciudad(ciudad: str) -> str:
+    limpio = ciudad.strip()
+    clave = _sin_acentos(limpio).lower()
+    if clave in _ALIAS_CIUDAD:
+        return _ALIAS_CIUDAD[clave]
+    # normaliza mayúsculas/minúsculas sueltas (ej. "CÓRDOBA" -> "Córdoba")
+    # pero respeta nombres ya bien capitalizados con mayúsculas internas
+    # (ej. "San Nicolás de Los Arroyos") en vez de aplastarlos.
+    if limpio.isupper() or limpio.islower():
+        return limpio.title()
+    return limpio
 
 
 def fetch_html(url: str, timeout: int = 20) -> str:
@@ -111,6 +145,27 @@ def _infer_year(mes: int, dia: int, hoy: Optional[date] = None) -> int:
     if candidata < hoy:
         anio += 1
     return anio
+
+
+def normalizar_ciudades_global(events: list[Event]) -> None:
+    """Segunda pasada, con TODOS los eventos ya juntos: agrupa ciudades que
+    solo difieren en tildes (ej. "Bahia Blanca" / "Bahía Blanca", venidas de
+    distintas fuentes) y las deja todas escritas igual, prefiriendo la
+    variante con tildes si existe. Modifica los eventos in-place."""
+    grupos: dict[str, list[str]] = {}
+    for ev in events:
+        if ev.ciudad:
+            grupos.setdefault(_sin_acentos(ev.ciudad).lower(), []).append(ev.ciudad)
+
+    canonico = {}
+    for clave, valores in grupos.items():
+        con_acentos = [v for v in valores if v != _sin_acentos(v)]
+        candidatos = con_acentos or valores
+        canonico[clave] = max(candidatos, key=candidatos.count)
+
+    for ev in events:
+        if ev.ciudad:
+            ev.ciudad = canonico[_sin_acentos(ev.ciudad).lower()]
 
 
 def dedupe(events: list[Event]) -> list[Event]:

@@ -11,7 +11,7 @@ from scrapers import (
     quality_center, all_access, livepass, mi_anticipada,
     venti, turbo_entrada, movistar_arena, entrada_uno, rosario_en_cartel,
 )
-from scrapers.base import dedupe
+from scrapers.base import dedupe, normalizar_ciudades_global
 
 OUTPUT_PATH = Path(__file__).parent / "output" / "events.json"
 
@@ -43,6 +43,7 @@ def run():
             print(f"[ERROR] {nombre}: {e}")
             traceback.print_exc(file=sys.stderr)
 
+    normalizar_ciudades_global(todos)
     todos = dedupe(todos)
     todos.sort(key=lambda e: e.fecha_inicio or "9999")
 

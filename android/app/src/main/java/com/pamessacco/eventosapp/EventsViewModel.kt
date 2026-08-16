@@ -11,7 +11,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import java.time.LocalDate
-import java.time.YearMonth
 
 data class UiState(
     val loading: Boolean = true,
@@ -19,9 +18,8 @@ data class UiState(
     val errorMessage: String? = null,
     val usandoCache: Boolean = false,
     val ultimaActualizacion: String? = null,
-    val mesVisible: YearMonth = YearMonth.now(),
     val busqueda: String = "",
-    val fuenteFiltro: String? = null,
+    val localidadFiltro: String? = null,
 )
 
 class EventsViewModel(application: Application) : AndroidViewModel(application) {
@@ -63,41 +61,33 @@ class EventsViewModel(application: Application) : AndroidViewModel(application) 
         }
     }
 
-    fun cambiarMes(delta: Long) {
-        _state.update { it.copy(mesVisible = it.mesVisible.plusMonths(delta)) }
-    }
-
     fun setBusqueda(texto: String) {
         _state.update { it.copy(busqueda = texto) }
     }
 
-    fun setFuenteFiltro(fuente: String?) {
-        _state.update { it.copy(fuenteFiltro = fuente) }
+    fun setLocalidadFiltro(localidad: String?) {
+        _state.update { it.copy(localidadFiltro = localidad) }
     }
 
-    /** Eventos que matchean los filtros activos (búsqueda + fuente), sin importar el día. */
+    /** Eventos que matchean los filtros activos (búsqueda + localidad), ordenados por fecha. */
     fun eventosFiltrados(state: UiState): List<EventItem> {
         val texto = state.busqueda.trim().lowercase()
-        return state.events.filter { ev ->
-            (state.fuenteFiltro == null || ev.fuente == state.fuenteFiltro) &&
-                (texto.isEmpty() ||
-                    ev.titulo.lowercase().contains(texto) ||
-                    (ev.venue?.lowercase()?.contains(texto) == true) ||
-                    (ev.ciudad?.lowercase()?.contains(texto) == true))
-        }
+        val hoy = LocalDate.now()
+        return state.events
+            .filter { ev ->
+                (ev.fechaInicio == null || !ev.fechaInicio.toLocalDate().isBefore(hoy)) &&
+                    (state.localidadFiltro == null || ev.ciudad == state.localidadFiltro) &&
+                    (texto.isEmpty() ||
+                        ev.titulo.lowercase().contains(texto) ||
+                        (ev.venue?.lowercase()?.contains(texto) == true) ||
+                        (ev.ciudad?.lowercase()?.contains(texto) == true))
+            }
+            .sortedBy { it.fechaInicio }
     }
 
-    /** Días (dentro del mes visible) que tienen al menos un evento, para pintar el punto en el calendario. */
-    fun diasConEventos(eventos: List<EventItem>, mes: YearMonth): Set<LocalDate> =
-        eventos.mapNotNull { it.fechaInicio?.toLocalDate() }
-            .filter { YearMonth.from(it) == mes }
-            .toSet()
+    /** Localidades distintas disponibles entre los eventos cargados, para el desplegable. */
+    fun localidadesDisponibles(state: UiState): List<String> =
+        state.events.mapNotNull { it.ciudad }.distinct().sorted()
 
     fun eventoPorId(id: String): EventItem? = _state.value.events.firstOrNull { it.id == id }
-
-    /** Eventos de un día puntual, respetando los filtros de búsqueda/fuente activos. */
-    fun eventosDelDia(dia: LocalDate): List<EventItem> =
-        eventosFiltrados(_state.value)
-            .filter { it.fechaInicio?.toLocalDate() == dia }
-            .sortedBy { it.fechaInicio }
 }

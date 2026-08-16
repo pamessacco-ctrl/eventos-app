@@ -1,32 +1,26 @@
-package com.pamessacco.eventosapp.ui.calendar
+package com.pamessacco.eventosapp.ui.search
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ChevronLeft
-import androidx.compose.material.icons.filled.ChevronRight
+import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.pamessacco.eventosapp.EventsViewModel
 import com.pamessacco.eventosapp.data.EventItem
 import com.pamessacco.eventosapp.ui.components.EventCard
-import java.time.LocalDate
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CalendarScreen(
-    viewModel: EventsViewModel,
-    onEventoClick: (EventItem) -> Unit,
-    onDiaClick: (LocalDate) -> Unit,
-) {
+fun SearchScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
     Scaffold(
@@ -64,48 +58,30 @@ fun CalendarScreen(
                 singleLine = true,
             )
 
-            Row(
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.SpaceBetween,
-            ) {
-                IconButton(onClick = { viewModel.cambiarMes(-1) }) {
-                    Icon(Icons.Filled.ChevronLeft, contentDescription = "Mes anterior")
-                }
-                Text(state.mesVisible.nombreCapitalizado(), style = MaterialTheme.typography.titleMedium)
-                IconButton(onClick = { viewModel.cambiarMes(1) }) {
-                    Icon(Icons.Filled.ChevronRight, contentDescription = "Mes siguiente")
-                }
-            }
-
-            val filtrados = viewModel.eventosFiltrados(state)
-            val diasConEventos = viewModel.diasConEventos(filtrados, state.mesVisible)
-
-            MonthCalendar(
-                mes = state.mesVisible,
-                diasConEventos = diasConEventos,
-                onDiaClick = onDiaClick,
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp),
+            val localidades = viewModel.localidadesDisponibles(state)
+            FiltroDesplegable(
+                etiqueta = "Localidad",
+                opciones = localidades,
+                seleccionado = state.localidadFiltro,
+                onSeleccionar = viewModel::setLocalidadFiltro,
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
             )
 
             Spacer(modifier = Modifier.height(8.dp))
 
-            val proximos = filtrados
-                .filter { it.fechaInicio != null && !it.fechaInicio!!.toLocalDate().isBefore(LocalDate.now()) }
-                .sortedBy { it.fechaInicio }
-                .take(50)
+            val filtrados = viewModel.eventosFiltrados(state)
 
             if (state.loading && state.events.isEmpty()) {
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     CircularProgressIndicator()
                 }
-            } else if (proximos.isEmpty()) {
+            } else if (filtrados.isEmpty()) {
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     Text("No hay eventos para mostrar", style = MaterialTheme.typography.bodyMedium)
                 }
             } else {
                 Text(
-                    text = "Próximos eventos",
+                    text = "${filtrados.size} evento${if (filtrados.size == 1) "" else "s"}",
                     style = MaterialTheme.typography.labelLarge,
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
                 )
@@ -114,11 +90,53 @@ fun CalendarScreen(
                     contentPadding = PaddingValues(horizontal = 16.dp, vertical = 4.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
                 ) {
-                    items(proximos, key = { it.id }) { evento ->
+                    items(filtrados, key = { it.id }) { evento ->
                         EventCard(evento = evento, onClick = { onEventoClick(evento) })
                     }
                     item { Spacer(modifier = Modifier.height(24.dp)) }
                 }
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun FiltroDesplegable(
+    etiqueta: String,
+    opciones: List<String>,
+    seleccionado: String?,
+    onSeleccionar: (String?) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    var expandido by remember { mutableStateOf(false) }
+
+    ExposedDropdownMenuBox(
+        expanded = expandido,
+        onExpandedChange = { expandido = it },
+        modifier = modifier,
+    ) {
+        OutlinedTextField(
+            value = seleccionado ?: "Todas",
+            onValueChange = {},
+            readOnly = true,
+            label = { Text(etiqueta) },
+            trailingIcon = { Icon(Icons.Filled.ArrowDropDown, contentDescription = null) },
+            maxLines = 1,
+            modifier = Modifier
+                .menuAnchor(MenuAnchorType.PrimaryNotEditable)
+                .fillMaxWidth(),
+        )
+        ExposedDropdownMenu(expanded = expandido, onDismissRequest = { expandido = false }) {
+            DropdownMenuItem(
+                text = { Text("Todas") },
+                onClick = { onSeleccionar(null); expandido = false },
+            )
+            opciones.forEach { opcion ->
+                DropdownMenuItem(
+                    text = { Text(opcion, maxLines = 1, overflow = TextOverflow.Ellipsis) },
+                    onClick = { onSeleccionar(opcion); expandido = false },
+                )
             }
         }
     }

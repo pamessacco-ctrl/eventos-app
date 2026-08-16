@@ -24,6 +24,10 @@ def scrape() -> list[Event]:
         e["idEstablecimiento"]: e
         for e in (cartel.get("listaEstablecimiento") or [])
     }
+    categorias = {
+        c["idEspectaculoCartelCategoria"]: c["cNombre"]
+        for c in (cartel.get("listaEspectaculoCartelCategoria") or [])
+    }
 
     eventos = []
     for esp in cartel.get("listaEspectaculoCartel") or []:
@@ -42,6 +46,9 @@ def scrape() -> list[Event]:
                 venue = est.get("cNombre")
                 ciudad = est.get("cZona")
 
+        ids_categoria = esp.get("listaIdEspectaculoCartelCategoria") or []
+        categoria = categorias.get(ids_categoria[0]) if ids_categoria else None
+
         titulo = (esp.get("cNombre") or "").strip()
         precio = esp.get("fPrecioDesde") or None
         seo = esp.get("cSeo")
@@ -51,6 +58,7 @@ def scrape() -> list[Event]:
             venue=venue,
             ciudad=ciudad,
             fecha_inicio=fecha,
+            categoria=categoria,
             precio_desde=precio if precio else None,
             imagen_url=esp.get("cImagenBanner"),
             ticket_url=f"{WEB_BASE}/evento/{seo}" if seo else esp.get("cWebUri"),
