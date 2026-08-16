@@ -57,7 +57,7 @@ fun HomeScreen(viewModel: EventsViewModel, onEventoClick: (EventItem) -> Unit) {
     LazyColumn(modifier = Modifier.fillMaxSize()) {
         item {
             Text(
-                text = "Destacados internacionales",
+                text = "Destacados",
                 style = MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
