@@ -1,6 +1,6 @@
 {
-  "generado": "2026-08-21T08:05:23.681838+00:00",
-  "total_eventos": 1171,
+  "generado": "2026-08-21T14:07:37.912815+00:00",
+  "total_eventos": 1172,
   "resumen_por_fuente": {
     "quality_center": 103,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
@@ -9,7 +9,7 @@
     "venti": 346,
     "turbo_entrada": 23,
     "movistar_arena": 67,
-    "entrada_uno": 419,
+    "entrada_uno": 420,
     "rosario_en_cartel": 30
   },
   "eventos": [
@@ -163,23 +163,6 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/elena-roger/",
       "fuente": "rosarioencartel.com.ar",
       "id": "a248df3f29d9f6de",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "BLACK CREAM ORIGINAL JUEVES 20/08",
-      "venue": "BlackCream",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-08-21T02:59:37.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1786865407736-lg.jpg",
-      "ticket_url": "https://venti.live/evento/black-cream-original-jueves-20-08",
-      "fuente": "venti.live",
-      "id": "460792af03ae7012",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -9602,6 +9585,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Encuentro de Sentires",
+      "venue": "Auditorio Luis C. Caronti",
+      "ciudad": "Bahía Blanca",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-19T21:00:00",
+      "fecha_fin": null,
+      "categoria": "Música",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landingv1_535c7140-cf99-4ad8-89db-690bad484b80.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "b405252ae67f3b5d",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "EL MATO A UN POLICIA MOTORIZADO",
       "venue": "Movistar Arena",
       "ciudad": "CABA",
@@ -15603,6 +15603,23 @@
       "prioridad_destacado": 27
     },
     {
+      "titulo": "Ángela Torres  - No me olvides Tour en Arena Mardel Plata",
+      "venue": "Arena Mardel Plata",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-01T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1787174646317-lg.jpg",
+      "ticket_url": "https://venti.live/evento/ngela-torres-no-me-olvides-tour-en-arena-mardel-plata",
+      "fuente": "venti.live",
+      "id": "689089becfa5df8f",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Fatima Garrido en Cafe Berlin",
       "venue": "Cafe Berlin",
       "ciudad": null,
@@ -15627,7 +15644,7 @@
       "fecha_inicio": "2026-11-03T21:00:00-03:00",
       "fecha_fin": null,
       "categoria": null,
-      "precio_desde": 45000.0,
+      "precio_desde": 60000.0,
       "moneda": "ARS",
       "imagen_url": "https://www.movistararena.com.ar/static/artistas/5B855_BERSUIT_FileFotoFichaListado",
       "ticket_url": "https://www.movistararena.com.ar/show/b6062578-f485-4191-bc02-8fb51a8f145f",
