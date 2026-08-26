@@ -1,6 +1,6 @@
 {
-  "generado": "2026-08-26T08:09:44.339060+00:00",
-  "total_eventos": 1126,
+  "generado": "2026-08-26T14:26:29.009375+00:00",
+  "total_eventos": 1127,
   "resumen_por_fuente": {
     "quality_center": 105,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
@@ -9,7 +9,7 @@
     "venti": 319,
     "turbo_entrada": 22,
     "movistar_arena": 67,
-    "entrada_uno": 419,
+    "entrada_uno": 420,
     "rosario_en_cartel": 24
   },
   "eventos": [
@@ -15242,6 +15242,23 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "9aa2e6dea3887c95",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "TEMPLE: La Leyenda del Tiempo",
+      "venue": "Teatro Provincial Juan Carlos Saravia",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-11-08T20:30:00",
+      "fecha_fin": null,
+      "categoria": "Especiales",
+      "precio_desde": 27000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v1-(4)_3f154e37-0ffb-40c3-a94a-cad839ca8d48.jpg",
+      "ticket_url": "https://www.vamos.gob.ar/landing/temple-la-leyenda-del-tiempo?idEspectaculoCartel=17350&cHashValidacion=161dd6eaa13f62cda465c1aeb7a0e30f520d4664",
+      "fuente": "entradauno.com",
+      "id": "ec8a31c36fc900a3",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
