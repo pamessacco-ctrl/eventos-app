@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-30T12:05:40.994161+00:00",
+  "generado": "2026-08-30T18:05:30.228332+00:00",
   "total_eventos": 1060,
   "resumen_por_fuente": {
     "quality_center": 103,
@@ -10,7 +10,7 @@
     "turbo_entrada": 24,
     "movistar_arena": 68,
     "entrada_uno": 416,
-    "rosario_en_cartel": "ERROR: HTTPSConnectionPool(host='www.rosarioencartel.com.ar', port=443): Read timed out. (read timeout=70)"
+    "rosario_en_cartel": "ERROR: HTTPSConnectionPool(host='www.rosarioencartel.com.ar', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.rosarioencartel.com.ar', port=443) at 0x7fdffdcdb350>, 'Connection to www.rosarioencartel.com.ar timed out. (connect timeout=70)'))"
   },
   "eventos": [
     {
@@ -16964,9 +16964,9 @@
     },
     {
       "titulo": "27.12 MY TRIBE Opening -You Are My Tribe-",
-      "venue": "Narbona Wine Lodge",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
+      "venue": "Narbona Punta del Este",
+      "ciudad": "Punta del Este",
+      "provincia": null,
       "fecha_inicio": "2026-12-27T22:00:00.000Z",
       "fecha_fin": null,
       "categoria": null,
@@ -17049,9 +17049,9 @@
     },
     {
       "titulo": "2.01 MY TRIBE -Pasan Cosas-",
-      "venue": "Narbona Wine Lodge",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
+      "venue": "Narbona Punta del Este",
+      "ciudad": "Punta del Este",
+      "provincia": null,
       "fecha_inicio": "2027-01-02T22:00:00.000Z",
       "fecha_fin": null,
       "categoria": null,
@@ -17066,9 +17066,9 @@
     },
     {
       "titulo": "8.01 MY TRIBE Closing -You Are My Tribe-",
-      "venue": "Narbona Wine Lodge",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
+      "venue": "Narbona Punta del Este",
+      "ciudad": "Punta del Este",
+      "provincia": null,
       "fecha_inicio": "2027-01-08T22:00:00.000Z",
       "fecha_fin": null,
       "categoria": null,
