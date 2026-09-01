@@ -1,6 +1,6 @@
 {
-  "generado": "2026-09-01T00:09:00.167612+00:00",
-  "total_eventos": 1072,
+  "generado": "2026-09-01T06:07:58.389703+00:00",
+  "total_eventos": 1071,
   "resumen_por_fuente": {
     "quality_center": 103,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
@@ -8,45 +8,11 @@
     "mi_anticipada": 14,
     "venti": 303,
     "turbo_entrada": 22,
-    "movistar_arena": 67,
+    "movistar_arena": 66,
     "entrada_uno": 415,
-    "rosario_en_cartel": "ERROR: HTTPSConnectionPool(host='www.rosarioencartel.com.ar', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.rosarioencartel.com.ar', port=443) at 0x7f5aa10cdf70>, 'Connection to www.rosarioencartel.com.ar timed out. (connect timeout=70)'))"
+    "rosario_en_cartel": "ERROR: HTTPSConnectionPool(host='www.rosarioencartel.com.ar', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.rosarioencartel.com.ar', port=443) at 0x7efcc5ea20f0>, 'Connection to www.rosarioencartel.com.ar timed out. (connect timeout=70)'))"
   },
   "eventos": [
-    {
-      "titulo": "Teatrisimo",
-      "venue": "Teatro Regina",
-      "ciudad": "CABA",
-      "provincia": "CABA",
-      "fecha_inicio": "2026-08-31T20:30:00",
-      "fecha_fin": null,
-      "categoria": "Teatro",
-      "precio_desde": 30000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/Venues/Teatrisimo/Landing.jpg",
-      "ticket_url": "",
-      "fuente": "entradauno.com",
-      "id": "7328521eaccfc4e8",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "BEÉLE",
-      "venue": "Movistar Arena",
-      "ciudad": "CABA",
-      "provincia": "CABA",
-      "fecha_inicio": "2026-08-31T21:00:00-03:00",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": 100000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://www.movistararena.com.ar/static/artistas/48FD7_BEÉLE_FileFotoFichaListado",
-      "ticket_url": "https://www.movistararena.com.ar/show/48df070a-bc76-4ffd-93dd-67b309aa5aed",
-      "fuente": "movistararena.com.ar",
-      "id": "7d90ba9aa40e0826",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
     {
       "titulo": "Stone Flower en Cafe Berlin",
       "venue": "Cafe Berlin",
@@ -4804,6 +4770,23 @@
       "ticket_url": "https://ventas.mozarteumargentino.org/landing/16025-andras-schiff?idEspectaculoCartel=16025&cHashValidacion=be9295502e8077e3b81c05bd95eeabeb77a034fe",
       "fuente": "entradauno.com",
       "id": "0503cca4adedc29b",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Teatrisimo",
+      "venue": "Teatro Regina",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2026-09-14T20:30:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 30000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/Venues/Teatrisimo/Landing.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "d934c1befbac60f9",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
