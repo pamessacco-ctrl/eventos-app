@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-02T06:07:59.656781+00:00",
+  "generado": "2026-09-02T12:07:49.598288+00:00",
   "total_eventos": 1097,
   "resumen_por_fuente": {
     "quality_center": 103,
@@ -10,7 +10,7 @@
     "turbo_entrada": 23,
     "movistar_arena": 65,
     "entrada_uno": 419,
-    "rosario_en_cartel": "ERROR: HTTPSConnectionPool(host='www.rosarioencartel.com.ar', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.rosarioencartel.com.ar', port=443) at 0x7f0b43fb59a0>, 'Connection to www.rosarioencartel.com.ar timed out. (connect timeout=70)'))"
+    "rosario_en_cartel": "ERROR: HTTPSConnectionPool(host='www.rosarioencartel.com.ar', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.rosarioencartel.com.ar', port=443) at 0x7fb9b24ad970>, 'Connection to www.rosarioencartel.com.ar timed out. (connect timeout=70)'))"
   },
   "eventos": [
     {
