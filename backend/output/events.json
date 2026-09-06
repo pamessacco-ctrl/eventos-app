@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-06T12:05:13.290399+00:00",
+  "generado": "2026-09-06T18:04:31.272792+00:00",
   "total_eventos": 1100,
   "resumen_por_fuente": {
     "quality_center": 104,
@@ -9,27 +9,10 @@
     "venti": 312,
     "turbo_entrada": 23,
     "movistar_arena": 63,
-    "entrada_uno": 416,
-    "rosario_en_cartel": 32
+    "entrada_uno": 415,
+    "rosario_en_cartel": 33
   },
   "eventos": [
-    {
-      "titulo": "Pack: La Ocasión Hace al Ladrón y Gianni Schicchi",
-      "venue": "Auditorio Luis C. Caronti",
-      "ciudad": "Bahía Blanca",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-09-05T20:00:00",
-      "fecha_fin": null,
-      "categoria": "Especiales",
-      "precio_desde": 25000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landingv1-(35)_862fb21a-3424-4d66-b578-b518b97d56f3.jpg",
-      "ticket_url": "",
-      "fuente": "entradauno.com",
-      "id": "66be9f29c40a766c",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
     {
       "titulo": "Ian Lucas",
       "venue": "Quality Center",
@@ -1085,23 +1068,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "«Todo terminará para navidad»",
-      "venue": "Teatro del Rayo",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2026-09-11",
-      "fecha_fin": null,
-      "categoria": "teatro",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/09/Todo-terminara-para-navidad-1-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/todo-terminara-para-navidad/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "308f4a8e76372f2e",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "«El bingo musical de Veto y Fer»",
       "venue": "Complejo Cultural Atlas",
       "ciudad": "Rosario",
@@ -1115,6 +1081,23 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/el-bingo-musical-de-veto-y-fer/",
       "fuente": "rosarioencartel.com.ar",
       "id": "d16c4bc51444ab5a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "«Todo terminará para navidad»",
+      "venue": "Teatro del Rayo",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-09-11",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2025/09/Todo-terminara-para-navidad-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/todo-terminara-para-navidad/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "308f4a8e76372f2e",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -1799,6 +1782,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Palito Ortega",
+      "venue": "Teatro Broadway",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-09-12",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2016/01/Palito-Ortega-2021-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/palito-ortega-2026/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "598f4f6cb967dd6a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "«El Yarco, hasta donde topa»",
       "venue": "Multiespacio Nicasio",
       "ciudad": "Rosario",
@@ -1829,23 +1829,6 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/ito-2026/",
       "fuente": "rosarioencartel.com.ar",
       "id": "48c0677981c3a4b7",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Palito Ortega",
-      "venue": "Teatro Broadway",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2026-09-12",
-      "fecha_fin": null,
-      "categoria": "musica",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2016/01/Palito-Ortega-2021-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/palito-ortega-2026/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "598f4f6cb967dd6a",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2615,23 +2598,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "BEATLES A LA CARTA",
-      "venue": "Beatmemo",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2026-09-13",
-      "fecha_fin": null,
-      "categoria": "musica",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2024/01/beatles-a-la-carta-2023-1-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/beatles-a-la-carta/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "c1c0028e8629dfdf",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "No Te Va Gustar",
       "venue": "Anfiteatro Municipal \"Humberto de Nito\"",
       "ciudad": "Rosario",
@@ -2645,6 +2611,23 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/no-te-va-gustar-ntvg/",
       "fuente": "rosarioencartel.com.ar",
       "id": "3e8bde41a8062d1c",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "BEATLES A LA CARTA",
+      "venue": "Beatmemo",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-09-13",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2024/01/beatles-a-la-carta-2023-1-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/beatles-a-la-carta/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "c1c0028e8629dfdf",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -6759,6 +6742,23 @@
       "ticket_url": "https://livepass.com.ar/events/sebastian-brasero-swingbook-en-ccnu",
       "fuente": "livepass.com.ar",
       "id": "8064191b76013f49",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "ROCK IDOLS",
+      "venue": "Beatmemo",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-09-27",
+      "fecha_fin": null,
+      "categoria": "musica",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2024/12/ROCK-IDOLS-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/rock-idols/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "e5471131ab564338",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
