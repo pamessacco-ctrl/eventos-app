@@ -1,12 +1,12 @@
 {
-  "generado": "2026-09-08T06:05:25.421213+00:00",
-  "total_eventos": 1121,
+  "generado": "2026-09-08T12:06:13.282594+00:00",
+  "total_eventos": 1123,
   "resumen_por_fuente": {
     "quality_center": 100,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
     "livepass": 220,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 334,
+    "venti": 336,
     "turbo_entrada": 23,
     "movistar_arena": 63,
     "entrada_uno": 408,
@@ -1323,6 +1323,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "POPE – FULL CACHENGUE | VIERNES",
+      "venue": "POPE SOCIAL CLUB",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-11T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "ticket_url": "https://venti.live/evento/pope-full-cachengue-viernes",
+      "fuente": "venti.live",
+      "id": "d454e6d503625c00",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Lisandro Márquez",
       "venue": "Quality Center",
       "ciudad": null,
@@ -2237,6 +2254,23 @@
       "ticket_url": "https://venti.live/evento/nexo-x-gen",
       "fuente": "venti.live",
       "id": "f56773a2627b0f21",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "POPE – FULL CACHENGUE | SABADO 12.09",
+      "venue": "POPE SOCIAL CLUB",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-12T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "ticket_url": "https://venti.live/evento/pope-full-cachengue-sabado-12-09",
+      "fuente": "venti.live",
+      "id": "8a6c515440d55b37",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
