@@ -1,52 +1,18 @@
 {
-  "generado": "2026-09-07T18:04:59.769153+00:00",
-  "total_eventos": 1105,
+  "generado": "2026-09-08T00:06:32.492912+00:00",
+  "total_eventos": 1121,
   "resumen_por_fuente": {
-    "quality_center": 102,
+    "quality_center": 100,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
-    "livepass": 218,
+    "livepass": 220,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 322,
+    "venti": 334,
     "turbo_entrada": 23,
     "movistar_arena": 63,
-    "entrada_uno": 407,
+    "entrada_uno": 408,
     "rosario_en_cartel": 36
   },
   "eventos": [
-    {
-      "titulo": "Museo de Arte MAC",
-      "venue": "Museo de Arte MAC",
-      "ciudad": "Salta",
-      "provincia": "Salta",
-      "fecha_inicio": "2026-09-07T10:00:00",
-      "fecha_fin": null,
-      "categoria": "Museos",
-      "precio_desde": 3630.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/Venues/Saltaticket/museos/MAC/landing.png",
-      "ticket_url": "https://www.vamos.gob.ar/landing/14069-museo-de-arte-mac?idEspectaculoCartel=14069&cHashValidacion=172938661f35118ec16594eefcc4fb9af887b6ea",
-      "fuente": "entradauno.com",
-      "id": "1825bc852ed9b681",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Yo no duermo la siesta",
-      "venue": "Teatro Astros",
-      "ciudad": "CABA",
-      "provincia": "CABA",
-      "fecha_inicio": "2026-09-07T20:00:00",
-      "fecha_fin": null,
-      "categoria": "Teatro",
-      "precio_desde": 43000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/Venues/Teatro_Astros/Yonoduermolasiesta/landnueva.jpg",
-      "ticket_url": "",
-      "fuente": "entradauno.com",
-      "id": "85375a695e6799ee",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
     {
       "titulo": "La EMBA Cumple 40 anos en Cafe Berlin",
       "venue": "Cafe Berlin",
@@ -129,6 +95,23 @@
       "ticket_url": "https://www.vamos.gob.ar/landing/11941-explora-salta?idEspectaculoCartel=11941&cHashValidacion=5d7799d5d45341cfaf472c812ae435239e6a3a34",
       "fuente": "entradauno.com",
       "id": "6d43bb473ec2c869",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Museo de Arte MAC",
+      "venue": "Museo de Arte MAC",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-09-08T10:00:00",
+      "fecha_fin": null,
+      "categoria": "Museos",
+      "precio_desde": 3630.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/Venues/Saltaticket/museos/MAC/landing.png",
+      "ticket_url": "https://www.vamos.gob.ar/landing/14069-museo-de-arte-mac?idEspectaculoCartel=14069&cHashValidacion=172938661f35118ec16594eefcc4fb9af887b6ea",
+      "fuente": "entradauno.com",
+      "id": "e5199c547d189842",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -618,7 +601,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "imagen_url": "https://images.venti.live/user-images/1788811590347-lg.jpg",
       "ticket_url": "https://venti.live/evento/mercado-de-m-sica-patag-nico-en-niceto-bar-panel-patagonia-en-movimiento-trayectoria-juventudes-e-identidad",
       "fuente": "venti.live",
       "id": "4bb332e5c9a7672d",
@@ -1629,6 +1612,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Renee x EXTASIS.AYP",
+      "venue": "Renée Je T'Aime",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-12T00:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788811647912-lg.jpg",
+      "ticket_url": "https://venti.live/evento/renee-x-extasis-ayp",
+      "fuente": "venti.live",
+      "id": "dd374ddc641048be",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "¿Que Paso Ayer? 11/9",
       "venue": "Chicago, Güemes esquina Rodriguez. Rosario",
       "ciudad": null,
@@ -1731,7 +1731,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Mamba Clvb 11 Sep en Niceto Club",
+      "titulo": "Mamba Clvb 11 Sep en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -1743,7 +1743,7 @@
       "imagen_url": "https://images.venti.live/user-images/1788382969407-lg.jpg",
       "ticket_url": "https://venti.live/evento/mamba-clvb-21-sep-en-niceto-club",
       "fuente": "venti.live",
-      "id": "de6991830d06a73b",
+      "id": "e0307d68c90f8f4c",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2046,7 +2046,7 @@
       "categoria": null,
       "precio_desde": 40000.0,
       "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583x380px_sefuelarga_general_3b91342c-6ece-4743-a908-7dcbf464de3b.jpg",
       "ticket_url": "https://tickets.qualitycenter.com/landing/se-fue-larga--mendoza?idEspectaculoCartel=17210&cHashValidacion=66e4b1b1fae5ccedcd6044ac255b15372ed5ea44",
       "fuente": "entradauno.com",
       "id": "ff946b570fc3c437",
@@ -2220,6 +2220,23 @@
       "ticket_url": "https://venti.live/evento/s-bado-cachengue-by-bosco-sunset-12-09",
       "fuente": "venti.live",
       "id": "aace5798f2c617b0",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "🧬🧬NEXO X GEN🧬🧬",
+      "venue": "TCQ",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-12T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788820490315-lg.jpg",
+      "ticket_url": "https://venti.live/evento/nexo-x-gen",
+      "fuente": "venti.live",
+      "id": "f56773a2627b0f21",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2513,6 +2530,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "ROUX - SABADO 12 SEPTIEMBRE",
+      "venue": "Pueblo Límite",
+      "ciudad": "Costa Argentina",
+      "provincia": null,
+      "fecha_inicio": "2026-09-13T02:59:04.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788813612916-lg.jpg",
+      "ticket_url": "https://venti.live/evento/roux-sabado-12-septiembre",
+      "fuente": "venti.live",
+      "id": "1c4ae27382efbbfd",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Electra en Niceto Bar",
       "venue": "Niceto Bar",
       "ciudad": "Buenos Aires",
@@ -2632,7 +2666,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "ROSE NIGHT en Humboldt | Niceto Club",
+      "titulo": "ROSE NIGHT en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -2644,7 +2678,7 @@
       "imagen_url": "https://images.venti.live/user-images/1788559528704-lg.jpg",
       "ticket_url": "https://venti.live/evento/rose-night-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "2a9c1d8455319a3e",
+      "id": "d109c17fbba41e11",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2968,6 +3002,23 @@
       "ticket_url": "https://venti.live/evento/black-cream-original-dom-13-09",
       "fuente": "venti.live",
       "id": "e3b34d36131eb2bc",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Yo no duermo la siesta",
+      "venue": "Teatro Astros",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2026-09-14T20:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 43000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/Venues/Teatro_Astros/Yonoduermolasiesta/landnueva.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "a74c0a883bb4010c",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -3533,7 +3584,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Martina Marpegán en Humboldt | Niceto Club",
+      "titulo": "Martina Marpegán en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -3545,7 +3596,7 @@
       "imagen_url": "https://images.venti.live/user-images/1788557436204-lg.jpg",
       "ticket_url": "https://venti.live/evento/martina-marpeg-n-presenta-posdata-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "111bdbd8098286f4",
+      "id": "e62e4bfe9d02dd5c",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -4910,6 +4961,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Fiesta Bresh en Carlos Paz - 19 de Septiembre (Edición Primavera)",
+      "venue": "Zebra Club",
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "fecha_inicio": "2026-09-20T02:59:05.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788814402099-lg.jpg",
+      "ticket_url": "https://venti.live/evento/fiesta-bresh-en-carlos-paz-19-de-septiembre-edici-n-primavera",
+      "fuente": "venti.live",
+      "id": "8941f1f2abc9b074",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Fiesta Bresh en Bayside - 19 de Septiembre (Edición Primavera)",
       "venue": "Bayside Buenos Aires",
       "ciudad": "Buenos Aires",
@@ -5743,7 +5811,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "DENNIS BOVELL/CLUB HATS En Humboldt| Niceto Club",
+      "titulo": "DENNIS BOVELL/CLUB HATS en Humboldt| Niceto Club  (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -5755,7 +5823,7 @@
       "imagen_url": "https://images.venti.live/user-images/1788284803435-lg.jpg",
       "ticket_url": "https://venti.live/evento/dennis-bovell-club-hats-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "f2745aae652f4dca",
+      "id": "b2e4dc195b50d14d",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -5998,6 +6066,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Marcos Gaba/Todas Las  Anteriores/Ding! en Laberinto",
+      "venue": "Espacio Cultural Laberinto",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-25T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788813309379-lg.jpg",
+      "ticket_url": "https://venti.live/evento/marcos-gaba-todas-las-anteriores-ding-en-laberinto",
+      "fuente": "venti.live",
+      "id": "fb7163bdbd75d0fd",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "PEDRO PASTOR EN BUENOS AIRES - 10 locos años descalzos en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
@@ -6151,7 +6236,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Pelusones en Humboldt | Niceto Club",
+      "titulo": "Pelusones en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -6163,7 +6248,7 @@
       "imagen_url": "https://images.venti.live/user-images/1785332004831-lg.jpg",
       "ticket_url": "https://venti.live/evento/pelusones-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "797e767d98f1e322",
+      "id": "957ef5e6858cc565",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -6253,7 +6338,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "DANCETERIA en Humboldt | Niceto Club",
+      "titulo": "DANCETERIA en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -6265,7 +6350,24 @@
       "imagen_url": "https://images.venti.live/user-images/1788741685800-lg.jpg",
       "ticket_url": "https://venti.live/evento/danceteria-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "7c82d7758d500139",
+      "id": "72ceee9eb9a5a47b",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "TCQ Viernes 25 de Septiembre",
+      "venue": "TCQ",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-26T02:59:40.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788819971143-lg.jpg",
+      "ticket_url": "https://venti.live/evento/tcq-viernes-25-de-septiembre",
+      "fuente": "venti.live",
+      "id": "62d1014d235a8cc1",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -6372,6 +6474,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Arcana Victoria - Traslado Oficial - 26 de Septiembre",
+      "venue": "Victoria del Agua",
+      "ciudad": "Entre Ríos",
+      "provincia": "Entre Ríos",
+      "fecha_inicio": "2026-09-26T19:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788529926176-lg.jpg",
+      "ticket_url": "https://venti.live/evento/arcana-victoria-traslado-oficial-26-de-septiembre",
+      "fuente": "venti.live",
+      "id": "e5d1bacc6a5c19ce",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Sexpoerotica - 26 Años",
       "venue": "Quality Arena",
       "ciudad": "Córdoba",
@@ -6474,23 +6593,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "La Finquita Sunset | Apertura de Temporada - 26/09",
-      "venue": "LA FINQUITA 1920",
-      "ciudad": "Mendoza",
-      "provincia": "Mendoza",
-      "fecha_inicio": "2026-09-26T21:00:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1782871473411-lg.jpg",
-      "ticket_url": "https://venti.live/evento/sunset-apertura-la-finquita-1920-26-09",
-      "fuente": "venti.live",
-      "id": "5be219000f6cd116",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "LA  HISTÓRICA SUNSET // WINE FESTIVAL // 26 SEPTIEMBRE",
       "venue": "Bodega La Histórica",
       "ciudad": "Mendoza",
@@ -6504,6 +6606,23 @@
       "ticket_url": "https://venti.live/evento/la-hist-rica-sunset-26-09",
       "fuente": "venti.live",
       "id": "0d9dd448b434b4e2",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "La Finquita Sunset | Apertura de Temporada - 26/09",
+      "venue": "LA FINQUITA 1920",
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "fecha_inicio": "2026-09-26T21:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1782871473411-lg.jpg",
+      "ticket_url": "https://venti.live/evento/la-finquita-sunset-apertura-de-temporada-26-09",
+      "fuente": "venti.live",
+      "id": "5be219000f6cd116",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -6559,7 +6678,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "CAMI GALZ: Licoretza Lupus - Presentación Oficial  en Humboldt | Niceto Club",
+      "titulo": "CAMI GALZ: Licoretza Lupus - Presentación Oficial  en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -6571,7 +6690,7 @@
       "imagen_url": "https://images.venti.live/user-images/1783431676373-lg.jpg",
       "ticket_url": "https://venti.live/evento/licoretza-lupus-presentaci-n-oficial-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "2032f9d4c7fe9456",
+      "id": "b2a167172b57cfdd",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -6763,7 +6882,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "LALIFEST by MANDALAY  26 SEP en Humboldt | Niceto Club",
+      "titulo": "LALIFEST by MANDALAY  26 SEP en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -6775,7 +6894,7 @@
       "imagen_url": "https://images.venti.live/user-images/1787659920649-lg.jpg",
       "ticket_url": "https://venti.live/evento/lalifest-by-mandalay-26-sep-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "7a232833b19c657e",
+      "id": "e8339f152160924a",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -6810,6 +6929,23 @@
       "ticket_url": "https://venti.live/evento/old-school-x-arz-s-b-26-09",
       "fuente": "venti.live",
       "id": "1b1f71829e15a858",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "CLUB QUBA | SABADO 26.09",
+      "venue": "Quba, café de mar",
+      "ciudad": "Costa Argentina",
+      "provincia": null,
+      "fecha_inicio": "2026-09-27T02:59:59.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788821379273-lg.jpg",
+      "ticket_url": "https://venti.live/evento/club-quba-sabado-26-09",
+      "fuente": "venti.live",
+      "id": "c9f763c1937a1209",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -6950,7 +7086,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "BAR ITALIA en Niceto Club",
+      "titulo": "BAR ITALIA en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -6962,7 +7098,7 @@
       "imagen_url": "https://images.venti.live/user-images/1787323953388-lg.jpg",
       "ticket_url": "https://venti.live/evento/bar-italia-en-niceto-club",
       "fuente": "venti.live",
-      "id": "035b335f45078b98",
+      "id": "11875fc9422d8f91",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -7120,7 +7256,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "ALBERT PLA en Niceto Club",
+      "titulo": "ALBERT PLA en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -7132,7 +7268,7 @@
       "imagen_url": "https://images.venti.live/user-images/1783358782643-lg.jpg",
       "ticket_url": "https://venti.live/evento/albert-pla-en-niceto-club",
       "fuente": "venti.live",
-      "id": "e55a249a1464b2cb",
+      "id": "6e0159523f65f6aa",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -7660,23 +7796,6 @@
       "ticket_url": "https://qualitycenter.com/shows/lucho-arrieta/",
       "fuente": "qualitycenter.com",
       "id": "26455444653e62a3",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Un Sueño de Princesas",
-      "venue": "Quality Center",
-      "ciudad": null,
-      "provincia": null,
-      "fecha_inicio": "2026-10-03",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/07/960x400_PrincesasNuevasFotos.jpg",
-      "ticket_url": "https://qualitycenter.com/shows/sueno-de-princesas/",
-      "fuente": "qualitycenter.com",
-      "id": "f9e4d462cfe4f957",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -8395,7 +8514,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Mis Peores Enemigos presenta \"Segundo Lugar\" junto a Full de Mango en Humboldt | Niceto Club",
+      "titulo": "Mis Peores Enemigos presenta \"Segundo Lugar\" junto a Full de Mango en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -8407,7 +8526,7 @@
       "imagen_url": "https://images.venti.live/user-images/1785853113540-lg.jpg",
       "ticket_url": "https://venti.live/evento/mis-peores-enemigos-presenta-segundo-lugar-junto-a-full-de-mango-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "d3432fe7a1e158e8",
+      "id": "b3592d2c239e8fbd",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -8510,6 +8629,23 @@
       "ticket_url": "https://venti.live/evento/fun-fun-shamrock-basement-djs-pareja-all-night-long",
       "fuente": "venti.live",
       "id": "71b33f4f4eaee448",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "HEARTBEAT AT LA NUBE",
+      "venue": "La Nube Buenos Aires",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-04T02:59:27.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788809627144-lg.jpg",
+      "ticket_url": "https://venti.live/evento/heartbeat-at-la-nube",
+      "fuente": "venti.live",
+      "id": "a8dd7720019d7ee6",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -8769,6 +8905,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Culpable",
+      "venue": "Quality Center",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-10-08",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/08/960x400_Culpable.jpg",
+      "ticket_url": "https://qualitycenter.com/shows/culpable/",
+      "fuente": "qualitycenter.com",
+      "id": "91ab426ed4a2e94c",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "La Pilarcita",
       "venue": "Teatro Astros",
       "ciudad": "CABA",
@@ -8799,6 +8952,23 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "c31cce88cac6757a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Culpable - El unipersonal de Carla Dogliani",
+      "venue": "Quality Teatro",
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "fecha_inicio": "2026-10-08T21:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 25000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583x380_culpable_0bc31bfc-8179-44f2-b3dd-fb4159a67c3f.jpg",
+      "ticket_url": "https://tickets.qualitycenter.com/landing/culpable---el-unipersonal-de-carla-dogliani?idEspectaculoCartel=17403&cHashValidacion=ea461f6d70de4abfff231f3e40f8f04910780935",
+      "fuente": "entradauno.com",
+      "id": "49850ddb27162280",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -9075,7 +9245,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "TOBIKA presenta INTELIGENCIA ARTESANAL en Niceto Club",
+      "titulo": "TOBIKA presenta INTELIGENCIA ARTESANAL en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -9087,7 +9257,7 @@
       "imagen_url": "https://images.venti.live/user-images/1784831973679-lg.jpg",
       "ticket_url": "https://venti.live/evento/tobika-presenta-inteligencia-artesanal-en-niceto-club",
       "fuente": "venti.live",
-      "id": "54b0498bf71dac8b",
+      "id": "31a489d3a4c67bca",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -9432,23 +9602,6 @@
       "prioridad_destacado": 16
     },
     {
-      "titulo": "La Finquita Sunset | Edición Especial - 10/10",
-      "venue": "LA FINQUITA 1920",
-      "ciudad": "Mendoza",
-      "provincia": "Mendoza",
-      "fecha_inicio": "2026-10-10T21:00:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1782871521708-lg.jpg",
-      "ticket_url": "https://venti.live/evento/la-finquita-sunset-edici-n-especial-10-10",
-      "fuente": "venti.live",
-      "id": "b126a3790bfa813b",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "LA  HISTÓRICA SUNSET // WINE FESTIVAL // 10 OCTUBRE",
       "venue": "Bodega La Histórica",
       "ciudad": "Mendoza",
@@ -9462,6 +9615,23 @@
       "ticket_url": "https://venti.live/evento/la-hist-rica-sunset-10-10",
       "fuente": "venti.live",
       "id": "370c94987583362a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "La Finquita Sunset | Edición Especial - 10/10",
+      "venue": "LA FINQUITA 1920",
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "fecha_inicio": "2026-10-10T21:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1782871521708-lg.jpg",
+      "ticket_url": "https://venti.live/evento/la-finquita-sunset-edici-n-especial-el-10-10",
+      "fuente": "venti.live",
+      "id": "b126a3790bfa813b",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -9816,7 +9986,7 @@
       "precio_desde": null,
       "moneda": "ARS",
       "imagen_url": "https://images.venti.live/user-images/1782871542252-lg.jpg",
-      "ticket_url": "https://venti.live/evento/la-finquita-sunset-edici-n-especial-11-10",
+      "ticket_url": "https://venti.live/evento/la-finquita-sunset-edici-n-especial-el-11-10",
       "fuente": "venti.live",
       "id": "569f3395cdf5ae62",
       "artista_internacional": null,
@@ -10180,7 +10350,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "SEDA Aniversario en  NIceto Club",
+      "titulo": "SEDA Aniversario en  NIceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -10192,7 +10362,7 @@
       "imagen_url": "https://images.venti.live/user-images/1786649681353-lg.jpg",
       "ticket_url": "https://venti.live/evento/seda-aniversario-en-niceto-club",
       "fuente": "venti.live",
-      "id": "3de11d33dc0b7d17",
+      "id": "8380d0361ed6e33e",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -10261,6 +10431,23 @@
       "ticket_url": "https://qualitycenter.com/shows/los-pericos/",
       "fuente": "qualitycenter.com",
       "id": "91d025da0516c0a3",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Fernando Sanjiao en Cafe Berlin",
+      "venue": "Cafe Berlin",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-10-16",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/905ffcfbdfe772604ba4f128965e3f4f451ac6da.jpg?1788803300",
+      "ticket_url": "https://livepass.com.ar/events/fernando-sanjiao-en-cafe-berlin-2026-10-16-20-45-00-0300",
+      "fuente": "livepass.com.ar",
+      "id": "40261ece9703bbb7",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -10656,7 +10843,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "ARKADIA PRESENTA: EL FIN DE LA NOSTALGIA en Humboldt | Niceto Club",
+      "titulo": "ARKADIA PRESENTA: EL FIN DE LA NOSTALGIA en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -10668,7 +10855,7 @@
       "imagen_url": "https://images.venti.live/user-images/1786394006328-lg.jpg",
       "ticket_url": "https://venti.live/evento/arkadia-presenta-el-fin-de-la-nostalgia-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "3231f7353153eb33",
+      "id": "39fb2716659a9793",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -10686,6 +10873,23 @@
       "ticket_url": "https://venti.live/evento/jast-germ-n-cicala-b2b-mazzeo-2gthr-morocco-16-10",
       "fuente": "venti.live",
       "id": "1c22425a056a1348",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Shift Aniversario - Invitado Internacional - Formato Boiler",
+      "venue": "Cnel. Niceto Vega 5699",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-17T02:59:55.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788810329566-lg.jpg",
+      "ticket_url": "https://venti.live/evento/shift-aniversario-invitado-internacional-formato-boiler",
+      "fuente": "venti.live",
+      "id": "1afba92f9e650c94",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -10945,7 +11149,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "\"2 TIERRAS ROCK\" en vivo en Humboldt | Niceto Club",
+      "titulo": "\"2 TIERRAS ROCK\" en vivo en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt| Niceto Club",
       "ciudad": null,
       "provincia": null,
@@ -10957,7 +11161,7 @@
       "imagen_url": "https://images.venti.live/user-images/1785418330003-lg.jpg",
       "ticket_url": "https://venti.live/evento/2-tierras-rock-en-vivo-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "c5d913df2f8c3b5a",
+      "id": "8cd8f78d8dc2c0af",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -11370,7 +11574,7 @@
       "prioridad_destacado": 50
     },
     {
-      "titulo": "HOMOGÉNICA FESTEJA 1 AÑO DE “POST POP” en Niceto Club",
+      "titulo": "HOMOGÉNICA FESTEJA 1 AÑO DE “POST POP” en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -11382,7 +11586,7 @@
       "imagen_url": "https://images.venti.live/user-images/1785862694130-lg.jpg",
       "ticket_url": "https://venti.live/evento/homog-nica-festeja-1-a-o-de-post-pop-en-niceto-club",
       "fuente": "venti.live",
-      "id": "48cd6f72ead35915",
+      "id": "814f5fc267907342",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -11761,7 +11965,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Ze Pequeña en Niceto Club",
+      "titulo": "Ze Pequeña en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -11773,7 +11977,7 @@
       "imagen_url": "https://images.venti.live/user-images/1787232063804-lg.jpg",
       "ticket_url": "https://venti.live/evento/ze-peque-a-en-niceto-club",
       "fuente": "venti.live",
-      "id": "105b5bd14ecafcce",
+      "id": "11e7728eee214c5f",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -12458,7 +12662,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Franco Rizzaro en Niceto Club",
+      "titulo": "Franco Rizzaro en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -12470,7 +12674,7 @@
       "imagen_url": "https://images.venti.live/user-images/1786383872773-lg.jpg",
       "ticket_url": "https://venti.live/evento/franco-rizzaro-en-niceto-club",
       "fuente": "venti.live",
-      "id": "0b037688a470bd01",
+      "id": "407849df8c7cf45e",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -13954,6 +14158,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "CARMEN SANCHEZ VIAMONTE en el Teatro Opera LP",
+      "venue": "el Teatro Opera LP",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-07",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/3b64248222baff1aefab49981a0b8cbb989da236.jpg?1788812883",
+      "ticket_url": "https://livepass.com.ar/events/carmen-sanchez-viamonte-en-el-teatro-opera-lp-2026-11-07-20-00-00-0300",
+      "fuente": "livepass.com.ar",
+      "id": "2eb51ad5ca3032cb",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "PANTER GIULIANO | GUITARRA & VOZ en San Miguel",
       "venue": "San Miguel",
       "ciudad": null,
@@ -14001,6 +14222,23 @@
       "ticket_url": "https://venti.live/evento/babas-nicos-tucum-n",
       "fuente": "venti.live",
       "id": "288367f405f7f81f",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "SAN MARTIN VAMPIRE + CERETTI en Humboldt | Niceto Club (+18 años)",
+      "venue": "Niceto Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-07T00:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788809896009-lg.jpg",
+      "ticket_url": "https://venti.live/evento/san-martin-vampire-ceretti-en-humboldt-niceto-club-18-a-os",
+      "fuente": "venti.live",
+      "id": "6d3a49a153ead9f4",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -14515,6 +14753,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Quality Comedy Club",
+      "venue": "Quality Center",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-12",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/06/960x400_Comedy.jpg",
+      "ticket_url": "https://qualitycenter.com/shows/quality-comedy-club/",
+      "fuente": "qualitycenter.com",
+      "id": "542920340761b164",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Camerata Bariloche",
       "venue": "Quality Center",
       "ciudad": null,
@@ -14634,7 +14889,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "QUÉ SE SIENTE | ARA T en Humboldt | Niceto Club",
+      "titulo": "QUÉ SE SIENTE | ARA T en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -14646,7 +14901,7 @@
       "imagen_url": "https://images.venti.live/user-images/1788471926877-lg.jpg",
       "ticket_url": "https://venti.live/evento/qu-se-siente-ara-t-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "9c3e91f337b7eeed",
+      "id": "4b571369ecfd89dc",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -14872,23 +15127,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Tan Bionica",
-      "venue": "Quality Center",
-      "ciudad": null,
-      "provincia": null,
-      "fecha_inicio": "2026-11-14",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/04/TB_960x400.jpg.jpeg",
-      "ticket_url": "https://qualitycenter.com/shows/tan-bionica/",
-      "fuente": "qualitycenter.com",
-      "id": "23e7620ac3532400",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Hecatombe",
       "venue": "Quality Center",
       "ciudad": null,
@@ -14902,6 +15140,23 @@
       "ticket_url": "https://qualitycenter.com/shows/hecatombe/",
       "fuente": "qualitycenter.com",
       "id": "5311aa09266aa181",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Tan Bionica",
+      "venue": "Quality Center",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-14",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/04/TB_960x400.jpg.jpeg",
+      "ticket_url": "https://qualitycenter.com/shows/tan-bionica/",
+      "fuente": "qualitycenter.com",
+      "id": "23e7620ac3532400",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -14974,7 +15229,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Mila en Humboldt | Niceto Club",
+      "titulo": "Mila en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -14986,12 +15241,12 @@
       "imagen_url": "https://images.venti.live/user-images/1780489377566-lg.jpg",
       "ticket_url": "https://venti.live/evento/mila-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "a91c801ce5a1b35b",
+      "id": "547a8bc2e5bc0917",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
     {
-      "titulo": "Random Fiesta en Niceto Club",
+      "titulo": "Random Fiesta en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -15003,7 +15258,7 @@
       "imagen_url": "https://images.venti.live/user-images/1784131308641-lg.jpg",
       "ticket_url": "https://venti.live/evento/random-fiesta-en-niceto-club",
       "fuente": "venti.live",
-      "id": "57fcb073f1dcddfb",
+      "id": "eb3b932c1d9c616b",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -15790,7 +16045,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Temporada de Elefantes en Humboldt | Niceto Club",
+      "titulo": "Temporada de Elefantes en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -15802,7 +16057,7 @@
       "imagen_url": "https://images.venti.live/user-images/1785252945616-lg.jpg",
       "ticket_url": "https://venti.live/evento/temporada-de-elefantes-en-humboldt-niceto-club",
       "fuente": "venti.live",
-      "id": "b0474cb367c5ee5e",
+      "id": "7f22a99cd3a1326f",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -17252,7 +17507,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "FELIPE BALDOMIR EN BUENOS AIRES en Niceto Club",
+      "titulo": "FELIPE BALDOMIR EN BUENOS AIRES en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -17264,7 +17519,7 @@
       "imagen_url": "https://images.venti.live/user-images/1782401692480-lg.jpg",
       "ticket_url": "https://venti.live/evento/felipe-baldomir-en-buenos-aires-en-niceto-club",
       "fuente": "venti.live",
-      "id": "c46c2a8f17aa4856",
+      "id": "68cd67ed824e9159",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -17507,6 +17762,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Gallo Criollo celebra su 1er año en Humboldt | Niceto Club",
+      "venue": "Humboldt | Niceto Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-12-14T00:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788822311524-lg.jpg",
+      "ticket_url": "https://venti.live/evento/gallo-criollo-celebra-su-1er-a-o-en-humboldt-niceto-club",
+      "fuente": "venti.live",
+      "id": "15f8adea415688ec",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Slayer",
       "venue": "Movistar Arena",
       "ciudad": "CABA",
@@ -17609,7 +17881,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Sara Hebe Presenta Negocionismo en Bs As en Niceto Club",
+      "titulo": "Sara Hebe Presenta Negocionismo en Bs As en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -17621,7 +17893,7 @@
       "imagen_url": "https://images.venti.live/user-images/1787865231011-lg.jpg",
       "ticket_url": "https://venti.live/evento/sara-hebe-presenta-negocionismo-en-bs-as-en-niceto-club",
       "fuente": "venti.live",
-      "id": "a739059e2cbef736",
+      "id": "1e487a2c208ebdff",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
