@@ -1,35 +1,18 @@
 {
-  "generado": "2026-09-09T00:06:44.091355+00:00",
-  "total_eventos": 1148,
+  "generado": "2026-09-09T06:05:28.237841+00:00",
+  "total_eventos": 1147,
   "resumen_por_fuente": {
     "quality_center": 101,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
-    "livepass": 225,
+    "livepass": 223,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 353,
+    "venti": 354,
     "turbo_entrada": 23,
-    "movistar_arena": 63,
+    "movistar_arena": 62,
     "entrada_uno": 411,
     "rosario_en_cartel": 36
   },
   "eventos": [
-    {
-      "titulo": "OZUNA",
-      "venue": "Movistar Arena",
-      "ciudad": "CABA",
-      "provincia": "CABA",
-      "fecha_inicio": "2026-09-08T21:00:00-03:00",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": 105000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://www.movistararena.com.ar/static/artistas/DED61_OZUNA_FileFotoFichaListado",
-      "ticket_url": "https://www.movistararena.com.ar/show/246f7f3b-a84c-47bf-ad75-8e72b3d8bdfb",
-      "fuente": "movistararena.com.ar",
-      "id": "89997ac83c8f7881",
-      "artista_internacional": "Ozuna",
-      "prioridad_destacado": 12
-    },
     {
       "titulo": "Stropakul en Cafe Berlin",
       "venue": "Cafe Berlin",
@@ -10095,6 +10078,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "EL CLUB DE LA SERPIENTE, 10 DE OCTUBRE - PLAZA DE MÚSICA - MAR DEL PLATA",
+      "venue": "Av. Constitución 5780",
+      "ciudad": "Costa Argentina",
+      "provincia": null,
+      "fecha_inicio": "2026-10-11T02:59:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1788795408613-lg.jpg",
+      "ticket_url": "https://venti.live/evento/el-club-de-la-serpiente-10-de-octubre-plaza-de-m-sica-mar-del-plata",
+      "fuente": "venti.live",
+      "id": "63256269c7d4bfac",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "SAFARI ANIVERSARIO 8°",
       "venue": "Av. Raúl Scalabrini Ortiz 1425",
       "ciudad": "Buenos Aires",
@@ -10283,7 +10283,7 @@
     },
     {
       "titulo": "La Nosti - Dom 11/10 (Pre feriado)",
-      "venue": "Stadium Complejo La Normandina",
+      "venue": "La Normandina Salón de Eventos",
       "ciudad": "Costa Argentina",
       "provincia": null,
       "fecha_inicio": "2026-10-12T02:59:13.000Z",
@@ -19118,23 +19118,6 @@
       "ticket_url": "https://tickets.qualitycenter.com/landing/festival-de-zarzuela-y-oper?idEspectaculoCartel=17306&cHashValidacion=a0e5a469fbdea1dd9f4983be76c5f35ca8e24d76",
       "fuente": "entradauno.com",
       "id": "ae89341891f071c0",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "La EMBA Cumple 40 anos en Cafe Berlin",
-      "venue": "Cafe Berlin",
-      "ciudad": null,
-      "provincia": null,
-      "fecha_inicio": "2027-09-08",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/7cb32501c19ecab70060f334792b97708f613c39.jpg?1785855547",
-      "ticket_url": "https://livepass.com.ar/events/la-emba-cumple-40-anos-en-cafe-berlin",
-      "fuente": "livepass.com.ar",
-      "id": "f8683fbd620361f1",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
