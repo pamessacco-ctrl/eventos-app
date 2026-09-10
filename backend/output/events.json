@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-10T06:05:40.173823+00:00",
+  "generado": "2026-09-10T12:05:46.192148+00:00",
   "total_eventos": 1172,
   "resumen_por_fuente": {
     "quality_center": 103,
@@ -1162,7 +1162,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "imagen_url": "https://images.venti.live/user-images/1789038007795-lg.jpg",
       "ticket_url": "https://venti.live/evento/pope-full-cachengue-viernes",
       "fuente": "venti.live",
       "id": "d454e6d503625c00",
@@ -2114,7 +2114,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "imagen_url": "https://images.venti.live/user-images/1789037825770-lg.jpg",
       "ticket_url": "https://venti.live/evento/pope-full-cachengue-sabado-12-09",
       "fuente": "venti.live",
       "id": "8a6c515440d55b37",
@@ -5811,23 +5811,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "«Oveja Negra»",
-      "venue": "Teatro Mateo Booz",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2026-09-25",
-      "fecha_fin": null,
-      "categoria": "teatro",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2015/02/Juampi-2026-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/juampi-gonzalez-oveja-negra/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "3d043dfdf017e927",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "«Habitación Macbeth»",
       "venue": "Teatro Municipal La Comedia",
       "ciudad": "Rosario",
@@ -5858,6 +5841,23 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/el-hombre-inesperado/",
       "fuente": "rosarioencartel.com.ar",
       "id": "753bbec894a85aa7",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "“Oveja Negra”",
+      "venue": "Teatro Mateo Booz",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-09-25",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2015/02/Juampi-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/oveja-negra/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "09918c5430017905",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
