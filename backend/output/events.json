@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-13T12:05:21.625583+00:00",
+  "generado": "2026-09-13T18:05:04.692523+00:00",
   "total_eventos": 1108,
   "resumen_por_fuente": {
     "quality_center": 98,
@@ -180,23 +180,6 @@
       "ticket_url": "https://www.vamos.gob.ar/landing/museo-arqueologico-de-cachi?idEspectaculoCartel=10993&cHashValidacion=8ceb994f20f5763c3afeb5ff40351cdb5352e09e",
       "fuente": "entradauno.com",
       "id": "71a8f0ba52a4a42f",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Breakfast club 13/09",
-      "venue": "MISIÓN",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-09-13T09:30:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1789073890084-lg.jpg",
-      "ticket_url": "https://venti.live/evento/breakfast-club-13-09",
-      "fuente": "venti.live",
-      "id": "3ff0535aa0ebad3e",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -503,6 +486,23 @@
       "ticket_url": "https://venti.live/evento/habitat-en-wildhops-citybell",
       "fuente": "venti.live",
       "id": "d2363e9d6e8870cc",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "ClubHouse",
+      "venue": "Estáncia estrella federal",
+      "ciudad": "Ramallo",
+      "provincia": null,
+      "fecha_inicio": "2026-09-13T21:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1789309961404-lg.jpg",
+      "ticket_url": "https://venti.live/evento/clubhouse",
+      "fuente": "venti.live",
+      "id": "99e140e9c277946f",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
