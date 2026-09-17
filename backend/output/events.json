@@ -1,16 +1,16 @@
 {
-  "generado": "2026-09-17T10:39:38.685493+00:00",
-  "total_eventos": 1180,
+  "generado": "2026-09-17T15:53:24.052197+00:00",
+  "total_eventos": 1183,
   "resumen_por_fuente": {
     "quality_center": 101,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
     "livepass": 231,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 379,
+    "venti": 381,
     "turbo_entrada": 26,
-    "movistar_arena": 59,
-    "entrada_uno": 413,
-    "rosario_en_cartel": 32
+    "movistar_arena": 60,
+    "entrada_uno": 415,
+    "rosario_en_cartel": 30
   },
   "eventos": [
     {
@@ -2105,7 +2105,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "NOT WELCOME & MEETING LAB Presents •Spring Edition•",
+      "titulo": "NOT WELCOME | SHOWTIME | MEETING LAB Presents •Spring Edition•",
       "venue": "Tokyo Club BA",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -2117,7 +2117,7 @@
       "imagen_url": "https://images.venti.live/user-images/1786836203905-lg.jpg",
       "ticket_url": "https://venti.live/evento/not-welcome-meeting-lab-presents",
       "fuente": "venti.live",
-      "id": "110af994e66f1aa4",
+      "id": "89abd0e7e80267b8",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2352,7 +2352,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1789597567870-lg.jpg",
+      "imagen_url": "https://images.venti.live/user-images/1789657828442-lg.jpg",
       "ticket_url": "https://venti.live/evento/yendo-vol-2",
       "fuente": "venti.live",
       "id": "3fca2e06b68f128b",
@@ -3189,23 +3189,6 @@
       "ticket_url": "https://livepass.com.ar/events/5-planetas-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "b3168009cbda1bd1",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Gonzalo Aloras",
-      "venue": "Teatro El Círculo",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2026-09-24",
-      "fecha_fin": null,
-      "categoria": "musica",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2015/06/Aloras-2026-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/gonzalo-aloras-2026/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "141cf7e9b5a77c70",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -4137,7 +4120,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "imagen_url": "https://images.venti.live/user-images/1789660160919-lg.jpg",
       "ticket_url": "https://venti.live/evento/s25-09-spring-frequency-by-sonum-nacho-padilla",
       "fuente": "venti.live",
       "id": "eead07eef9c2f7b0",
@@ -4787,6 +4770,23 @@
       "ticket_url": "https://venti.live/evento/el-club-de-la-serpiente-26-de-septiembre-mood-live-neuquen",
       "fuente": "venti.live",
       "id": "a3452a96f7903074",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Lucas Colubri & Amador @ Shamrock Basement",
+      "venue": "The Shamrock Bar & Basement Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-09-27T02:59:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1789648894538-lg.jpg",
+      "ticket_url": "https://venti.live/evento/lucas-colubri-amador-shamrock-basement",
+      "fuente": "venti.live",
+      "id": "0475a7cebcc348df",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -8837,6 +8837,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Whip @ Shamrock Basement",
+      "venue": "The Shamrock Bar & Basement Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-12T02:59:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1789649946008-lg.jpg",
+      "ticket_url": "https://venti.live/evento/whip-shamrock-basement",
+      "fuente": "venti.live",
+      "id": "9858d6735c4774ce",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "La Nosti - Dom 11/10 (Pre feriado)",
       "venue": "La Normandina Salón de Eventos",
       "ciudad": "Costa Argentina",
@@ -12645,7 +12662,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "COLLAB 3000 | JULIETA LAKE | KØLPØS",
+      "titulo": "COLLABS 3000 | JULIETA LAKE | KØLPØS",
       "venue": "Under Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -12657,7 +12674,7 @@
       "imagen_url": "https://images.venti.live/user-images/1784219853667-lg.jpg",
       "ticket_url": "https://venti.live/evento/collab-3000-julieta-lake-k-lp-s",
       "fuente": "venti.live",
-      "id": "bb4ecec49b001126",
+      "id": "388a54b475694164",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -12730,6 +12747,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Aladín",
+      "venue": "BAC - British Art Centre",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2026-10-31T18:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 30000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/img-01-aladin-(1583px-x-380-px)_e21e840e-8d5d-4f41-bef9-46dd7937c8e7.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "8b8c6398a9e84fb0",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Lucas Sugo - Palcos VIP",
       "venue": "Quality Espacio",
       "ciudad": "Córdoba",
@@ -12760,6 +12794,23 @@
       "ticket_url": "https://tickets.qualitycenter.com/landing/16259-lucas-sugo?idEspectaculoCartel=16259&cHashValidacion=0110549ed71a1fedaceb944e981896e5856af2e7",
       "fuente": "entradauno.com",
       "id": "f9dfb43d32880330",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "El Principito",
+      "venue": "BAC - British Art Centre",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2026-10-31T20:00:00",
+      "fecha_fin": null,
+      "categoria": "Especiales",
+      "precio_desde": 30000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/Venues/British_Art_Centre/El-Principito/img-02-EL_PRINCIPITO%20%281440px%20X%20500%20px%29.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "9c62aca054943193",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -13096,7 +13147,7 @@
       "categoria": "Música",
       "precio_desde": 50000.0,
       "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/bolivarfest_landing_acf6575f-0238-40a4-a6f9-99a94d73c1f7.png",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1580-x-380-px-(1)_f568e222-f0f9-42af-a051-8651cfd899a8.jpg",
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "367a313efab765c5",
@@ -16759,7 +16810,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Gvtz en en Humboldt | Niceto Club (+18 años)",
+      "titulo": "Gvtz en en Humboldt | Niceto Club (+16 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -16771,7 +16822,7 @@
       "imagen_url": "https://images.venti.live/user-images/1789572058528-lg.jpg",
       "ticket_url": "https://venti.live/evento/gvtz-en-en-humboldt-niceto-club-18-a-os",
       "fuente": "venti.live",
-      "id": "9e1adba635fe6b43",
+      "id": "650b918392d2cd4f",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -18391,8 +18442,8 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "CLOSING PARTY 12/12 (tickets confianza)",
-      "venue": "Ros Tower Hotel",
+      "titulo": "CLOSING PARTY @ ANDRES KOLLER X AFL",
+      "venue": "complejo forest",
       "ciudad": "Santa Fe",
       "provincia": "Santa Fe",
       "fecha_inicio": "2026-12-13T02:00:00.000Z",
@@ -18400,10 +18451,10 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
-      "ticket_url": "https://venti.live/evento/closing-party-12-12-tickets-confianza",
+      "imagen_url": "https://images.venti.live/user-images/1789656894184-lg.jpg",
+      "ticket_url": "https://venti.live/evento/closing-party-andres-koller-x-afl",
       "fuente": "venti.live",
-      "id": "ae6e24d1235aca84",
+      "id": "9f2f1f0cb33e573d",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -19326,6 +19377,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Ha*Ash",
+      "venue": "Movistar Arena",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2027-03-17T21:00:00-03:00",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": 60000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://www.movistararena.com.ar/static/artistas/7BA12_Ha*Ash_FileFotoFichaListado",
+      "ticket_url": "https://www.movistararena.com.ar/show/1ece33a6-1f30-4b45-82bf-5a12f44edb1c",
+      "fuente": "movistararena.com.ar",
+      "id": "1a6be9725faf8a09",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "La Oreja de Van Gogh",
       "venue": "Movistar Arena",
       "ciudad": "CABA",
@@ -19611,23 +19679,6 @@
       "ticket_url": "https://tickets.qualitycenter.com/landing/festival-de-zarzuela-y-oper?idEspectaculoCartel=17306&cHashValidacion=a0e5a469fbdea1dd9f4983be76c5f35ca8e24d76",
       "fuente": "entradauno.com",
       "id": "ae89341891f071c0",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Servian el Circo",
-      "venue": "Hiper Libertad",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2027-09-11",
-      "fecha_fin": null,
-      "categoria": "eventos",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2024/04/Servian-2024-1-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/servian-el-circo/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "769b742dd87e2cdf",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
