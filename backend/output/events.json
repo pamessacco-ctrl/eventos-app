@@ -1,15 +1,15 @@
 {
-  "generado": "2026-10-01T03:06:45.788948+00:00",
+  "generado": "2026-10-01T12:04:02.197571+00:00",
   "total_eventos": 1118,
   "resumen_por_fuente": {
     "quality_center": 101,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
-    "livepass": 223,
+    "livepass": 221,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
     "venti": 382,
     "turbo_entrada": 29,
     "movistar_arena": 60,
-    "entrada_uno": 376,
+    "entrada_uno": 377,
     "rosario_en_cartel": 24
   },
   "eventos": [
@@ -11778,6 +11778,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Tremor",
+      "venue": "Quality Teatro",
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "fecha_inicio": "2026-11-07T20:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 25000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583x380_tremor_43ea0e9b-31a7-40cb-9dda-f825da2e2258.jpg",
+      "ticket_url": "https://tickets.qualitycenter.com/landing/tremor?idEspectaculoCartel=17537&cHashValidacion=8bede259f37db46e4a2f1d853cd591c126af8ed0",
+      "fuente": "entradauno.com",
+      "id": "1f58fa54a0e0493f",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Flor Bertotti - Palcos VIP",
       "venue": "Quality Arena",
       "ciudad": "Córdoba",
@@ -18608,23 +18625,6 @@
       "ticket_url": "https://www.movistararena.com.ar/show/f626738b-fc3f-42ec-83d4-77ad37bf591f",
       "fuente": "movistararena.com.ar",
       "id": "7589b0c7950c9806",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Double Dragon 4tet en CCNU",
-      "venue": "CCNU",
-      "ciudad": null,
-      "provincia": null,
-      "fecha_inicio": "2027-09-30",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f6ed6545a1e10a9c1e8094eb388f263631338a9e.png?1789137234",
-      "ticket_url": "https://livepass.com.ar/events/double-dragon-4tet-en-ccnu",
-      "fuente": "livepass.com.ar",
-      "id": "e60ab88efa17da55",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
