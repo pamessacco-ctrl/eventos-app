@@ -1,6 +1,6 @@
 {
-  "generado": "2026-10-03T10:49:15.119836+00:00",
-  "total_eventos": 1107,
+  "generado": "2026-10-03T15:25:26.734835+00:00",
+  "total_eventos": 1108,
   "resumen_por_fuente": {
     "quality_center": 99,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
@@ -9,7 +9,7 @@
     "venti": 376,
     "turbo_entrada": 28,
     "movistar_arena": 60,
-    "entrada_uno": 367,
+    "entrada_uno": 368,
     "rosario_en_cartel": 36
   },
   "eventos": [
@@ -911,6 +911,23 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "f5680307f0390e04",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Ciclo Teatro del país",
+      "venue": "Teatro Nacional Cervantes",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2026-10-03T21:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v1_1583-x-380-px__1-ciclo-general_1cbeb694-baaf-459b-9e4a-b6d45b20dbd0.jpg",
+      "ticket_url": "https://ventas.teatrocervantes.gob.ar/landing/ciclo-teatro-del-pas?idEspectaculoCartel=17398&cHashValidacion=677119bef273db62818d320223b82be83f89f96a",
+      "fuente": "entradauno.com",
+      "id": "0e85afcb053952ad",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
