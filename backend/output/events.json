@@ -1,6 +1,6 @@
 {
-  "generado": "2026-10-04T16:10:00.007222+00:00",
-  "total_eventos": 1047,
+  "generado": "2026-10-04T20:39:22.403316+00:00",
+  "total_eventos": 1046,
   "resumen_por_fuente": {
     "quality_center": 96,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
@@ -9,7 +9,7 @@
     "venti": 344,
     "turbo_entrada": 27,
     "movistar_arena": 60,
-    "entrada_uno": 353,
+    "entrada_uno": 352,
     "rosario_en_cartel": 36
   },
   "eventos": [
@@ -184,23 +184,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Museo Arqueológico de Cachi",
-      "venue": "Museo Arqueológico de Cachi",
-      "ciudad": "Salta",
-      "provincia": "Salta",
-      "fecha_inicio": "2026-10-04T09:00:00",
-      "fecha_fin": null,
-      "categoria": "Museos",
-      "precio_desde": 150.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/Venues/Saltaticket/museos/Museo_Cachi/bg1.jpg",
-      "ticket_url": "https://www.vamos.gob.ar/landing/museo-arqueologico-de-cachi?idEspectaculoCartel=10993&cHashValidacion=8ceb994f20f5763c3afeb5ff40351cdb5352e09e",
-      "fuente": "entradauno.com",
-      "id": "d16e4d9b97e126f3",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Explora Salta",
       "venue": "Complejo Museológico Explora Salta",
       "ciudad": "Salta",
@@ -282,23 +265,6 @@
       "ticket_url": "https://www.vamos.gob.ar/landing/10463-museo-guemes?idEspectaculoCartel=10463&cHashValidacion=acc17f1af219b4208a688fbcf1a431b6f8f9ef13",
       "fuente": "entradauno.com",
       "id": "fe207ec102f57052",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Los Raviolis- Piyama Party",
-      "venue": "Teatro Canning",
-      "ciudad": "Canning",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-10-04T16:00:00",
-      "fecha_fin": null,
-      "categoria": "Música",
-      "precio_desde": 30000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/raviolis_landing-v1_6617f346-7044-4a26-99c1-d25227050d42.jpg",
-      "ticket_url": "",
-      "fuente": "entradauno.com",
-      "id": "e1a03319088886e0",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -707,6 +673,23 @@
       "ticket_url": "https://livepass.com.ar/events/gicela-mendez-ribeiro-aluisio-rockembach-musica-de-frontera-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "a62609f7f9e3400f",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Museo Arqueológico de Cachi",
+      "venue": "Museo Arqueológico de Cachi",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-10-06T09:00:00",
+      "fecha_fin": null,
+      "categoria": "Museos",
+      "precio_desde": 150.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/Venues/Saltaticket/museos/Museo_Cachi/bg1.jpg",
+      "ticket_url": "https://www.vamos.gob.ar/landing/museo-arqueologico-de-cachi?idEspectaculoCartel=10993&cHashValidacion=8ceb994f20f5763c3afeb5ff40351cdb5352e09e",
+      "fuente": "entradauno.com",
+      "id": "e4d7a301b65cc33a",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -3142,6 +3125,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "ROBOT ZONDA + KLAXON en Humboldt |  Niceto Club",
+      "venue": "Humboldt | Niceto Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-11T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1790021556887-lg.jpg",
+      "ticket_url": "https://venti.live/evento/robot-zonda-klaxon-en-humboldt-niceto-club",
+      "fuente": "venti.live",
+      "id": "e6b477c15a4321f4",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "DOMINGO CACHENGUE BY BOSCO SUNSET 11/10",
       "venue": "Bosco Restaurant",
       "ciudad": "Mendoza",
@@ -3223,23 +3223,6 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/carrera-de-fondo/",
       "fuente": "rosarioencartel.com.ar",
       "id": "2ebdf2712c0232b5",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "ROBOT ZONDA + KLAXON en Humboldt |  Niceto Club",
-      "venue": "Humboldt | Niceto Club",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-10-12T00:00:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1790021556887-lg.jpg",
-      "ticket_url": "https://venti.live/evento/robot-zonda-klaxon-en-humboldt-niceto-club",
-      "fuente": "venti.live",
-      "id": "9e35d51d9b29208e",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
