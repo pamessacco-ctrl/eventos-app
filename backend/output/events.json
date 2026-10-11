@@ -1,15 +1,15 @@
 {
-  "generado": "2026-10-11T11:48:56.957541+00:00",
-  "total_eventos": 1051,
+  "generado": "2026-10-11T17:01:09.445926+00:00",
+  "total_eventos": 1049,
   "resumen_por_fuente": {
     "quality_center": 92,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
     "livepass": 173,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 360,
+    "venti": 359,
     "turbo_entrada": 28,
     "movistar_arena": 57,
-    "entrada_uno": 352,
+    "entrada_uno": 351,
     "rosario_en_cartel": 36
   },
   "eventos": [
@@ -231,23 +231,6 @@
       "ticket_url": "https://venti.live/evento/mushroom-dayshift-11-10",
       "fuente": "venti.live",
       "id": "afcec4617421fe34",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Am session x Safari 11-04",
-      "venue": "MISIÓN",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-10-11T09:30:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1791242469005-lg.jpg",
-      "ticket_url": "https://venti.live/evento/am-session-x-safari-11-04",
-      "fuente": "venti.live",
-      "id": "7f9cf14486769f81",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -1047,23 +1030,6 @@
       "ticket_url": "https://venti.live/evento/bajo-zero-festival-de-trap",
       "fuente": "venti.live",
       "id": "41ec74b6cf99c62b",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Luis Salinas",
-      "venue": "Teatro Stella Maris",
-      "ciudad": "San Isidro",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-10-12T20:00:00",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": 40000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/Venues/TEATRO-STELLAMARIS%09%09%09%09/luis/LANDING_1583x380%20SALINAS.jpg",
-      "ticket_url": "",
-      "fuente": "entradauno.com",
-      "id": "26c838ab9e96d81b",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
