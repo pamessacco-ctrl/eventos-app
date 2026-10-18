@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-18T15:06:09.951775+00:00",
+  "generado": "2026-10-18T19:52:05.973878+00:00",
   "total_eventos": 988,
   "resumen_por_fuente": {
     "quality_center": 85,
@@ -273,7 +273,7 @@
       "venue": "Quality VR Experience",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
-      "fecha_inicio": "2026-10-18T14:00:00",
+      "fecha_inicio": "2026-10-18T16:00:00",
       "fecha_fin": null,
       "categoria": "Familia",
       "precio_desde": 40000.0,
@@ -281,7 +281,7 @@
       "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583x380_ehdk_89edde0c-3aab-4963-9b7f-743c365c09b7.jpg",
       "ticket_url": "https://tickets.qualitycenter.com/landing/quality-vr-experience?idEspectaculoCartel=17387&cHashValidacion=801528c673009c732754151fa08e7970ca13640b",
       "fuente": "entradauno.com",
-      "id": "f0e1cfa83b097128",
+      "id": "158742bf686081e9",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
