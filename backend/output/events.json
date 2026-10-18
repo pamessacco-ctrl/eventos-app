@@ -1,16 +1,16 @@
 {
-  "generado": "2026-10-18T10:06:29.976884+00:00",
+  "generado": "2026-10-18T15:06:09.951775+00:00",
   "total_eventos": 988,
   "resumen_por_fuente": {
     "quality_center": 85,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
     "livepass": 169,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 337,
+    "venti": 336,
     "turbo_entrada": 26,
     "movistar_arena": 57,
     "entrada_uno": 331,
-    "rosario_en_cartel": 29
+    "rosario_en_cartel": 30
   },
   "eventos": [
     {
@@ -163,23 +163,6 @@
       "ticket_url": "https://www.vamos.gob.ar/landing/big-dreamers?idEspectaculoCartel=17577&cHashValidacion=301539cfbac63f7c7a1d9ee57fbab99a5da79d8c",
       "fuente": "entradauno.com",
       "id": "a01591298eea5e32",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "More more ++ 18/10",
-      "venue": "MISIÓN",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-10-18T09:30:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1791930913819-lg.jpg",
-      "ticket_url": "https://venti.live/evento/more-more-18-10",
-      "fuente": "venti.live",
-      "id": "98a7ccd2679c4e0c",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2785,6 +2768,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Mujeres que dejan huella",
+      "venue": "Teatro Municipal La Comedia",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-10-25",
+      "fecha_fin": null,
+      "categoria": "danza",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/10/Mujeres-que-dejan-huella-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/mujeres-que-dejan-huella/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "ad35ead2c6c2d762",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Ben Marcus. \"Buenas intenciones Tour” en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
@@ -3767,6 +3767,23 @@
       "ticket_url": "https://livepass.com.ar/events/pablo-cordonet-en-cafe-berlin-2026-10-30-23-00-00-0300",
       "fuente": "livepass.com.ar",
       "id": "fd6be4b15d7ed5bc",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "«El bingo musical de Veto y Fer»",
+      "venue": "Complejo Cultural Atlas",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-10-30",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/01/El-bingo-musical-de-Veto-y-Fer-edit-2026-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/el-bingo-musical-de-veto-y-fer/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "cd7c7af4117894ce",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -16347,23 +16364,6 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/feria-internacional-del-libro-de-rosario-2026/",
       "fuente": "rosarioencartel.com.ar",
       "id": "57fb01a67f103cb9",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "37ª Muestra Anual de Fotoperiodismo Argentino",
-      "venue": "Plataforma Lavardén – Sala de las Miradas",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2027-10-08",
-      "fecha_fin": null,
-      "categoria": "Gratis",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2017/09/37a-Muestra-Anual-de-Fotoperiodismo-argentino-protesta-1-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/37a-muestra-anual-de-fotoperiodismo-argentino/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "37d717aef218a83a",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
