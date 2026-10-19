@@ -1,15 +1,15 @@
 {
-  "generado": "2026-10-19T11:34:29.304939+00:00",
-  "total_eventos": 977,
+  "generado": "2026-10-19T17:58:08.487231+00:00",
+  "total_eventos": 986,
   "resumen_por_fuente": {
     "quality_center": 85,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
-    "livepass": 188,
+    "livepass": 190,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 335,
+    "venti": 340,
     "turbo_entrada": 25,
-    "movistar_arena": 56,
-    "entrada_uno": 326,
+    "movistar_arena": 57,
+    "entrada_uno": 327,
     "rosario_en_cartel": 29
   },
   "eventos": [
@@ -44,23 +44,6 @@
       "ticket_url": "https://qualitycenter.com/shows/quality-vr-experience/",
       "fuente": "qualitycenter.com",
       "id": "9918bc7fb978d6a6",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Visitas guiadas del Cervantes: Historia y Leyenda",
-      "venue": "Teatro Nacional Cervantes",
-      "ciudad": "CABA",
-      "provincia": "CABA",
-      "fecha_inicio": "2026-10-19T11:00:00",
-      "fecha_fin": null,
-      "categoria": "Teatro",
-      "precio_desde": 15000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v1_1583-x-380-px-(1)_92b8407b-5845-4060-b194-a49206f01241.jpg",
-      "ticket_url": "https://ventas.teatrocervantes.gob.ar/landing/visitas-guiadas-del-cervantes-historia-y-leyenda?idEspectaculoCartel=17277&cHashValidacion=d96a4f2b2070a9e307689fee5af13875cb40e37d",
-      "fuente": "entradauno.com",
-      "id": "e082a53be46a4b7e",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -320,23 +303,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Muestra Anual Profesorado de Danzas - ISPA",
-      "venue": "Casa de la Cultura",
-      "ciudad": "Salta",
-      "provincia": "Salta",
-      "fecha_inicio": "2026-10-20T20:30:00",
-      "fecha_fin": null,
-      "categoria": "Especiales",
-      "precio_desde": 15000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v11_51818443-13d4-4135-8cfe-0f08b7753215.jpg",
-      "ticket_url": "https://www.vamos.gob.ar/landing/muestra-anual-profesorado-de-danzas?idEspectaculoCartel=17567&cHashValidacion=07ee0c8fdeb3cf530fc970432951a9ffdc81ad6d",
-      "fuente": "entradauno.com",
-      "id": "66c9ebb1779d8e14",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Andres Calamaro",
       "venue": "Movistar Arena",
       "ciudad": "CABA",
@@ -435,23 +401,6 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "45e1c5040c9391a5",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Profesorado de Danza Contemporánea",
-      "venue": "Casa de la Cultura",
-      "ciudad": "Salta",
-      "provincia": "Salta",
-      "fecha_inicio": "2026-10-21T20:00:00",
-      "fecha_fin": null,
-      "categoria": "Especiales",
-      "precio_desde": 10000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583-x-380-(14)_5b731dd5-5dd3-44b9-8e3a-321d5ee5a14e.jpg",
-      "ticket_url": "https://www.vamos.gob.ar/landing/profesorado-de-danza-contempornea?idEspectaculoCartel=17600&cHashValidacion=bb62159d49c2f90a90e5eb3be2e6fa82f33b9aa1",
-      "fuente": "entradauno.com",
-      "id": "dd3e50dbb8ac54ea",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -707,6 +656,23 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "4fad4f10155b2174",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Cirque XXI 360",
+      "venue": "Arrecifes Ex Molino",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-22T20:00:00",
+      "fecha_fin": null,
+      "categoria": "Familia",
+      "precio_desde": 20000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/2-(2)-(1)_46ba737e-69db-4ba4-a9a0-c81e34d4fa27.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "cac0d2dd85023dad",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -1047,6 +1013,23 @@
       "ticket_url": "https://livepass.com.ar/events/blues-del-sur-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "4d8fe21e1f628d2c",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "KILOMBO Jue 22 OCT en Niceto Bar",
+      "venue": "Niceto Bar",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-23T00:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792415466507-lg.jpg",
+      "ticket_url": "https://venti.live/evento/kilombo-jue-22-oct-en-niceto-bar",
+      "fuente": "venti.live",
+      "id": "e4d9160405e4a2da",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -1442,7 +1425,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "DATA LOCAL x MNT > GORGOJO + AVENIDA LOS INCAS",
+      "titulo": "DATA LOCAL x BELA x MNT!  - En vivo: Gorgojo + Avenido Los Incas",
       "venue": "Angelo de Peredo 325",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
@@ -1454,7 +1437,7 @@
       "imagen_url": "https://images.venti.live/user-images/1792072378298-lg.jpg",
       "ticket_url": "https://venti.live/evento/data-local-x-mnt-gorgojo-avenida-los-incas",
       "fuente": "venti.live",
-      "id": "cce1e9d8757caa8d",
+      "id": "594d598c8242e6f0",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -1731,6 +1714,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "POPE RETRO 2000 –  | VIERNES 23.10",
+      "venue": "POPE SOCIAL CLUB",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-24T02:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792430182795-lg.jpg",
+      "ticket_url": "https://venti.live/evento/pope-viernes-23-10",
+      "fuente": "venti.live",
+      "id": "ab29fe07bebe2b57",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "CICLO ROTO 23 OCT en Niceto Bar",
       "venue": "Niceto Bar",
       "ciudad": "Buenos Aires",
@@ -1748,7 +1748,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "TERRA FURIA & CITY KIDS x BELA ~ Live Recording | CÓDIGO#04",
+      "titulo": "TERRA FURIA & CITY KIDS x BELA - Live Recording | CÓDIGO#04",
       "venue": "Angelo de Peredo 325",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
@@ -1760,7 +1760,7 @@
       "imagen_url": "https://images.venti.live/user-images/1792188118080-lg.jpg",
       "ticket_url": "https://venti.live/evento/terra-furia-city-kids-x-bela-live-recording-c-digo-04",
       "fuente": "venti.live",
-      "id": "933fcbaacac577a1",
+      "id": "9dda6e75297801eb",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2224,7 +2224,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "EARLY BIRD - EL CABLE EVENTS",
+      "titulo": "1ER PREVENTA -  EL CABLE EVENTS",
       "venue": "El Cable Wakepark",
       "ciudad": "Mendoza",
       "provincia": "Mendoza",
@@ -2236,7 +2236,7 @@
       "imagen_url": "https://images.venti.live/user-images/1792015159920-lg.jpg",
       "ticket_url": "https://venti.live/evento/first-drop-el-cable-events",
       "fuente": "venti.live",
-      "id": "f68a7e96fc456050",
+      "id": "1d361240c3159ee8",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2428,7 +2428,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "DATA LOCAL x BELA: Oasis",
+      "titulo": "DATA LOCAL x BELA: OASIS x Masterplan",
       "venue": "Angelo de Peredo 325",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
@@ -2440,7 +2440,7 @@
       "imagen_url": "https://images.venti.live/user-images/1792094430607-lg.jpg",
       "ticket_url": "https://venti.live/evento/data-local-x-bela-oasis",
       "fuente": "venti.live",
-      "id": "4c959e5de0b068b8",
+      "id": "168b2848acddbd27",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2539,7 +2539,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/6c96cdf4e47523d3ecf31c36f67a6fc3ebf26ae2.png?1791382072",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/dc59287481c7c8d234ccf0f436be73e7eab93fcb.png?1792430344",
       "ticket_url": "https://livepass.com.ar/events/treasures-of-classic-jazz-en-ccnu-2026-10-25-21-30-00-0300",
       "fuente": "livepass.com.ar",
       "id": "363625d9abcb7dab",
@@ -3070,6 +3070,23 @@
       "ticket_url": "https://venti.live/evento/black-cream-original-domingo-25-10",
       "fuente": "venti.live",
       "id": "90cfc6357bc0964a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Visitas guiadas del Cervantes: Historia y Leyenda",
+      "venue": "Teatro Nacional Cervantes",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2026-10-26T11:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 15000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v1_1583-x-380-px-(1)_92b8407b-5845-4060-b194-a49206f01241.jpg",
+      "ticket_url": "https://ventas.teatrocervantes.gob.ar/landing/visitas-guiadas-del-cervantes-historia-y-leyenda?idEspectaculoCartel=17277&cHashValidacion=d96a4f2b2070a9e307689fee5af13875cb40e37d",
+      "fuente": "entradauno.com",
+      "id": "7eddc88d66aefcf2",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -4298,7 +4315,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "NUMBERS x BELA > Franzizca Open to Close",
+      "titulo": "NUMBERS x BELA - Franzizca - Open to Close",
       "venue": "Angelo de Peredo 325",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
@@ -4310,7 +4327,7 @@
       "imagen_url": "https://images.venti.live/user-images/1791491897572-lg.jpg",
       "ticket_url": "https://venti.live/evento/numbers-x-bela-franzizca-open-to-close",
       "fuente": "venti.live",
-      "id": "bed0a0dc14911140",
+      "id": "ca076cc14f9ec9f6",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -4808,7 +4825,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "DATA LOCAL x BELA: LOLASTRISTES",
+      "titulo": "DATA LOCAL x BELA: Lolastristes",
       "venue": "Angelo de Peredo 325",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
@@ -4820,7 +4837,7 @@
       "imagen_url": "https://images.venti.live/user-images/1792189571720-lg.jpg",
       "ticket_url": "https://venti.live/evento/data-local-x-bela-lolastristes",
       "fuente": "venti.live",
-      "id": "d86bafa654d75601",
+      "id": "4a7d0f6dc523beda",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -5178,6 +5195,23 @@
       "ticket_url": "https://venti.live/evento/fiesta-bresh-en-mandarine-31-de-octubre-edici-n-halloween",
       "fuente": "venti.live",
       "id": "1a88cc1b7a2720a0",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "SANTURRONA | HALLOWEEN 31-10 en Niceto Bar",
+      "venue": "Niceto Bar",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-01T02:59:26.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792415155058-lg.jpg",
+      "ticket_url": "https://venti.live/evento/santurrona-halloween-31-10-en-niceto-bar",
+      "fuente": "venti.live",
+      "id": "d60d17779b66a1e2",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -7698,6 +7732,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "EMBA - Canciones de Autor en Cafe Berlin",
+      "venue": "Cafe Berlin",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-09",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/de7796ae5142ca92cf745a729f6dd764ebe44ab0.jpg?1792420134",
+      "ticket_url": "https://livepass.com.ar/events/emba-canciones-de-autor-en-cafe-berlin",
+      "fuente": "livepass.com.ar",
+      "id": "d9254d12cf64e58e",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "RICHH LOU PRESENTA EL SUEÑO DE LA PIBA en Humboldt  | Niceto Club (+18 años)",
       "venue": "humboldt | Niceto Club",
       "ciudad": null,
@@ -9908,6 +9959,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Sofia Viola en Cafe Berlin",
+      "venue": "Cafe Berlin",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-20",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/1feeb8b8c90da5e211a10e5176e2bc6146dfb386.jpg?1792417476",
+      "ticket_url": "https://livepass.com.ar/events/sofia-viola-en-cafe-berlin-2026-11-20-23-00-00-0300",
+      "fuente": "livepass.com.ar",
+      "id": "8f47dc469f4b3efa",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Gabriel Rolón",
       "venue": "Teatro El Círculo",
       "ciudad": "Rosario",
@@ -9974,6 +10042,23 @@
       "id": "bcc8b5772e041536",
       "artista_internacional": "Moscow State Ballet",
       "prioridad_destacado": 42
+    },
+    {
+      "titulo": "La Fuerza",
+      "venue": "Teatro Regina",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2026-11-20T20:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 45000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v1-(7)_59f74bf6-186d-4a1b-893c-d368e459da34.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "57e87ce8dac3d247",
+      "artista_internacional": null,
+      "prioridad_destacado": null
     },
     {
       "titulo": "Valeria Lynch - Palcos VIP",
@@ -10690,6 +10775,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Strip Póker",
+      "venue": "Usina Cultural",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-11-21T21:30:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 25000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v1_9942f7c3-a6bb-4ac3-8d9e-a3a6c8df1d3d.jpg",
+      "ticket_url": "https://www.vamos.gob.ar/landing/strip-pker?idEspectaculoCartel=17592&cHashValidacion=5cf170a30939dedf32d68b753567716a71c3ac38",
+      "fuente": "entradauno.com",
+      "id": "c6e4ee1b1d930d38",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "PURA VIDA PRESENTA MIXMAG LATAM SESSIONS x ØOSTIL",
       "venue": "HOTEL TERMAS VICTORIA Wellness Spa",
       "ciudad": "Entre Ríos",
@@ -11145,6 +11247,23 @@
       "ticket_url": "https://venti.live/evento/flor-ibarra-en-niceto-bar",
       "fuente": "venti.live",
       "id": "cb4b92aa6d2989ea",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Pres. Antagonista - Eclipse Sonar",
+      "venue": "Cnel. Niceto Vega 5699",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-22T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792415062524-lg.jpg",
+      "ticket_url": "https://venti.live/evento/pres-antagonista-eclipse-sonar",
+      "fuente": "venti.live",
+      "id": "8d3bf59c791f7a41",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -12008,7 +12127,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1789575404446-lg.jpg",
+      "imagen_url": "https://images.venti.live/user-images/1792415758475-lg.jpg",
       "ticket_url": "https://venti.live/evento/self-titled-techno-session-en-niceto-bar",
       "fuente": "venti.live",
       "id": "dc928e0f3ad0e608",
@@ -12029,6 +12148,23 @@
       "ticket_url": "https://venti.live/evento/sunset-el-roble-28-10",
       "fuente": "venti.live",
       "id": "fa8014662e6b3dae",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "La Chancha Muda - Antes que se abra el corral en Niceto Club (+18 años)",
+      "venue": "Niceto Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-28T22:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792156413477-lg.jpg",
+      "ticket_url": "https://venti.live/evento/la-chancha-muda-antes-que-se-abra-el-corral-en-niceto-club-18-a-os",
+      "fuente": "venti.live",
+      "id": "00acf3f966829f87",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -12144,7 +12280,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1790347547281-lg.jpg",
+      "imagen_url": "https://images.venti.live/user-images/1792423514384-lg.jpg",
       "ticket_url": "https://venti.live/evento/nick-warren-proyecto-aborigen",
       "fuente": "venti.live",
       "id": "551c5a580077b24e",
@@ -13835,6 +13971,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "MIMI MAURA presenta Bailaré en Niceto Club (+18 años)",
+      "venue": "Niceto Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-12-12T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1791761846029-lg.jpg",
+      "ticket_url": "https://venti.live/evento/mimi-maura-presenta-bailar-en-niceto-club-18-a-os",
+      "fuente": "venti.live",
+      "id": "bf206c0c73320cbe",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "CAF",
       "venue": "Quality Center",
       "ciudad": null,
@@ -14668,23 +14821,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "La Chancha Muda - Antes que se abra el corral en Niceto Club (+18 años)",
-      "venue": "Niceto Club",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-12-28T22:00:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1792156413477-lg.jpg",
-      "ticket_url": "https://venti.live/evento/la-chancha-muda-antes-que-se-abra-el-corral-en-niceto-club-18-a-os",
-      "fuente": "venti.live",
-      "id": "2875fbaf55fab3c6",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Mariano Mellino @ Rio de Janeiro",
       "venue": "Faro Beach Club",
       "ciudad": "Rio de Janeiro",
@@ -15225,6 +15361,23 @@
       "ticket_url": "https://venti.live/evento/donavon-en-niceto-club",
       "fuente": "venti.live",
       "id": "04bd4e059f792174",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Laura Pausini",
+      "venue": "Movistar Arena",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2027-02-17T21:00:00-03:00",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": 90000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://www.movistararena.com.ar/static/artistas/06FE8_LauraPausini_FileFotoFichaListado",
+      "ticket_url": "https://www.movistararena.com.ar/show/3fb27135-7622-45e6-a54a-0b7de66250c2",
+      "fuente": "movistararena.com.ar",
+      "id": "98232f756d262081",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
