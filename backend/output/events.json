@@ -1,15 +1,15 @@
 {
-  "generado": "2026-10-20T10:39:33.381490+00:00",
-  "total_eventos": 1030,
+  "generado": "2026-10-20T16:02:18.326860+00:00",
+  "total_eventos": 1040,
   "resumen_por_fuente": {
     "quality_center": 86,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
-    "livepass": 191,
+    "livepass": 193,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 381,
+    "venti": 387,
     "turbo_entrada": 25,
     "movistar_arena": 57,
-    "entrada_uno": 327,
+    "entrada_uno": 329,
     "rosario_en_cartel": 30
   },
   "eventos": [
@@ -1017,6 +1017,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "NOT WELCOME PRESENTS MATÍAS SUNDBLAD",
+      "venue": "Tokyo Club BA",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-23T02:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792510204142-lg.jpg",
+      "ticket_url": "https://venti.live/evento/not-welcome-presents-mat-as-sundblad",
+      "fuente": "venti.live",
+      "id": "ce67718f0e5c9098",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "BLACK CREAM ORIGINAL JUEVES 22/10",
       "venue": "BlackCream",
       "ciudad": "Buenos Aires",
@@ -1901,23 +1918,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "ANTIGAL SESSIONS",
-      "venue": "Antigal Winery & Estates",
-      "ciudad": "Mendoza",
-      "provincia": "Mendoza",
-      "fecha_inicio": "2026-10-24T17:00:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1790967875865-lg.jpg",
-      "ticket_url": "https://venti.live/evento/antigal-sessions",
-      "fuente": "venti.live",
-      "id": "84a72791b71a4093",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Odd Man Out",
       "venue": "Teatro Ciego",
       "ciudad": "CABA",
@@ -2768,7 +2768,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "24/10 | Lulú pres KENIA - DOBAO - SIGNO",
+      "titulo": "24/10 | Lulú pres KENNY JONES -  DOBAO - SIGNO - FELIX CLARKE",
       "venue": "Lulú",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -2777,10 +2777,10 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1789242669665-lg.jpg",
+      "imagen_url": "https://images.venti.live/user-images/1792511406816-lg.jpg",
       "ticket_url": "https://venti.live/evento/s24-10-lul-pres-kenia-dobao-signo",
       "fuente": "venti.live",
-      "id": "cba7ebea22429e11",
+      "id": "f4ba60abe664c9ec",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -3491,7 +3491,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/08/Harlem-960x400-1.jpg",
+      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/09/960x400-HarlemGlobetrotters.jpg",
       "ticket_url": "https://qualitycenter.com/shows/harlem-globetrotters/",
       "fuente": "qualitycenter.com",
       "id": "eb99adf3c167eee1",
@@ -4434,6 +4434,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "ANTIGAL SESSIONS",
+      "venue": "Antigal Winery & Estates",
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "fecha_inicio": "2026-10-31T17:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792499353154-lg.jpg",
+      "ticket_url": "https://venti.live/evento/antigal-sessions",
+      "fuente": "venti.live",
+      "id": "0fb8f96000ef373a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Creepy Halloween 2026",
       "venue": "Forja Eventos",
       "ciudad": "Córdoba",
@@ -5063,6 +5080,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Un Ratito Primera Edición Halloween",
+      "venue": "Corvalan 26-Villa Luro",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-01T02:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792502576112-lg.jpg",
+      "ticket_url": "https://venti.live/evento/un-ratito-primera-edici-n-halloween",
+      "fuente": "venti.live",
+      "id": "3ff56e56e3cbd323",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "GUIDO SARTORIS @ CULT",
       "venue": "Veer",
       "ciudad": "Catamarca",
@@ -5675,6 +5709,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Crónica de una mujer",
+      "venue": "Casa de la Cultura",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-11-03T21:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 15000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-v1_b_fd6be240-55e9-476b-a91f-b192e9404228.jpg",
+      "ticket_url": "https://www.vamos.gob.ar/landing/crnica-de-una-mujer?idEspectaculoCartel=17612&cHashValidacion=7cc1223b040f534082c6fb7c6605cff35b1dcb62",
+      "fuente": "entradauno.com",
+      "id": "78bbcbf8f91fd187",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "BERSUIT",
       "venue": "Movistar Arena",
       "ciudad": "CABA",
@@ -5841,6 +5892,23 @@
       "ticket_url": "https://livepass.com.ar/events/jorge-vinas-en-cafe-berlin",
       "fuente": "livepass.com.ar",
       "id": "ef74c896b77f6bc5",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Singers in Jam en CCNU",
+      "venue": "CCNU",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-11-05",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/cf5916768eadb012365e29137ff8c71478691f40.png?1792435053",
+      "ticket_url": "https://livepass.com.ar/events/singers-in-jam-en-ccnu-2026-11-05-21-00-00-0300",
+      "fuente": "livepass.com.ar",
+      "id": "da6ff670e5fa6212",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -7936,6 +8004,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "CHINWEZZ EN NICETO + GG SALORT Y FIESTA OBLIGADO: TRASNOCHE Y DERROCHE en Niceto Club",
+      "venue": "Niceto Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-10T02:59:46.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792506540556-lg.jpg",
+      "ticket_url": "https://venti.live/evento/chinwezz-en-niceto-gg-salort-y-fiesta-obligado-trasnoche-y-derroche-en-niceto-club",
+      "fuente": "venti.live",
+      "id": "62ade4ef92304ca1",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "The King - Michael Jackson Experience",
       "venue": "Teatro España",
       "ciudad": "Carmen de Patagones",
@@ -9466,6 +9551,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "14/11 PISO 31 - EXTERNAL x ZET",
+      "venue": "Olympo Sky Bar",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-15T02:45:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "ticket_url": "https://venti.live/evento/s14-11-piso-31-external-x-zet",
+      "fuente": "venti.live",
+      "id": "7e2760d4ce149079",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "EL CLUB DE LA SERPIENTE, 14 DE NOVIEMBRE - LOTUS, ROSARIO",
       "venue": "Lotus Night Club",
       "ciudad": "Santa Fe",
@@ -10163,6 +10265,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Dentro del Bosque",
+      "venue": "Teatro Stella Maris",
+      "ciudad": "San Isidro",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-20T20:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 32000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-1x_bd7f34b5-2087-43d6-88f1-9701a25a52de.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "8f37c852d1f4fcfe",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Valeria Lynch - Palcos VIP",
       "venue": "Quality Arena",
       "ciudad": "Córdoba",
@@ -10533,6 +10652,23 @@
       "ticket_url": "https://venti.live/evento/dennis-cruz-x-mirage-vanguard",
       "fuente": "venti.live",
       "id": "e5786170d8d86410",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "EL CLUB DE LA SERPIENTE, 20 DE NOVIEMBRE - AUDITORIO SUR- TEMPERLEY, BUENOS AIRES",
+      "venue": "Auditorio Sur",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-21T02:45:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792420813964-lg.jpg",
+      "ticket_url": "https://venti.live/evento/el-club-de-la-serpiente-20-de-noviembre-auditorio-sur-temperley-buenos-aires",
+      "fuente": "venti.live",
+      "id": "e7c2c9a5b8dd29c9",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -12951,6 +13087,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "ARKADIA PRESENTA: EL FIN DE LA NOSTALGIA en Humboldt | Niceto Club (+18 años)",
+      "venue": "Humboldt | Niceto Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-12-04T00:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792507120435-lg.jpg",
+      "ticket_url": "https://venti.live/evento/arkadia-presenta-el-fin-de-la-nostalgia-en-humboldt-niceto-club-18-a-os",
+      "fuente": "venti.live",
+      "id": "7a0369848e743759",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Tony Kamo",
       "venue": "Quality Teatro",
       "ciudad": "Córdoba",
@@ -14001,6 +14154,23 @@
       "ticket_url": "https://venti.live/evento/la-finquita-sunset-fiesta-interempresas-11-12",
       "fuente": "venti.live",
       "id": "a0caaf9125190c32",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "EL UNIPERSONAL DE LUCHO MELLERA?en la Sala Ginastera - Teatro Argentino La Plata",
+      "venue": "la Sala Ginastera - Teatro Argentino La Plata",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-12-12",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/d54c6a0243da0216d82ea07b7b7ab75ae162e892.jpg?1792427153",
+      "ticket_url": "https://livepass.com.ar/events/el-unipersonal-de-lucho-mellera-en-la-sala-ginastera-teatro-argentino-la-plata",
+      "fuente": "livepass.com.ar",
+      "id": "416eabdc52874711",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
