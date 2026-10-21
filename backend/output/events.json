@@ -1,12 +1,12 @@
 {
-  "generado": "2026-10-21T02:31:51.004064+00:00",
+  "generado": "2026-10-21T10:50:09.643363+00:00",
   "total_eventos": 1052,
   "resumen_por_fuente": {
     "quality_center": 86,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
-    "livepass": 193,
+    "livepass": 191,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 400,
+    "venti": 401,
     "turbo_entrada": 25,
     "movistar_arena": 58,
     "entrada_uno": 327,
@@ -5314,6 +5314,23 @@
       "ticket_url": "https://venti.live/evento/fiesta-bresh-en-mandarine-31-de-octubre-edici-n-halloween",
       "fuente": "venti.live",
       "id": "1a88cc1b7a2720a0",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "31.10 HALLOWEEN X QUBA | PISTA CACHENGUE",
+      "venue": "Quba, café de mar",
+      "ciudad": "Costa Argentina",
+      "provincia": null,
+      "fecha_inicio": "2026-11-01T02:59:25.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "ticket_url": "https://venti.live/evento/s31-10-halloween-x-quba-pista-cachengue",
+      "fuente": "venti.live",
+      "id": "de2c2c7c713ba40f",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -17437,23 +17454,6 @@
       "id": "6a9fae2dbffecabf",
       "artista_internacional": "Iron Maiden",
       "prioridad_destacado": 1
-    },
-    {
-      "titulo": "La Pardo Big Band en Cafe Berlin",
-      "venue": "Cafe Berlin",
-      "ciudad": null,
-      "provincia": null,
-      "fecha_inicio": "2027-10-20",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/dd7f97be0075ead1e15275741cbe6a517492342d.jpg?1788803095",
-      "ticket_url": "https://livepass.com.ar/events/la-pardo-big-band-en-cafe-berlin-2026-10-20-20-45-00-0300",
-      "fuente": "livepass.com.ar",
-      "id": "b804762beabf91e6",
-      "artista_internacional": null,
-      "prioridad_destacado": null
     },
     {
       "titulo": "Eros Ramazzotti",
