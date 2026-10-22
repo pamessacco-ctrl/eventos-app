@@ -1,14 +1,14 @@
 {
-  "generado": "2026-10-22T16:18:52.706781+00:00",
-  "total_eventos": 1086,
+  "generado": "2026-10-22T21:09:34.069926+00:00",
+  "total_eventos": 1093,
   "resumen_por_fuente": {
-    "quality_center": 88,
+    "quality_center": 89,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
     "livepass": 199,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 418,
+    "venti": 423,
     "turbo_entrada": 25,
-    "movistar_arena": 58,
+    "movistar_arena": 59,
     "entrada_uno": 329,
     "rosario_en_cartel": 30
   },
@@ -167,23 +167,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Museo Arqueológico de Cachi",
-      "venue": "Museo Arqueológico de Cachi",
-      "ciudad": "Salta",
-      "provincia": "Salta",
-      "fecha_inicio": "2026-10-22T09:00:00",
-      "fecha_fin": null,
-      "categoria": "Museos",
-      "precio_desde": 150.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/Venues/Saltaticket/museos/Museo_Cachi/bg1.jpg",
-      "ticket_url": "https://www.vamos.gob.ar/landing/museo-arqueologico-de-cachi?idEspectaculoCartel=10993&cHashValidacion=8ceb994f20f5763c3afeb5ff40351cdb5352e09e",
-      "fuente": "entradauno.com",
-      "id": "9c6028075979af6c",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Explora Salta",
       "venue": "Complejo Museológico Explora Salta",
       "ciudad": "Salta",
@@ -290,7 +273,7 @@
       "venue": "Quality VR Experience",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
-      "fecha_inicio": "2026-10-22T16:00:00",
+      "fecha_inicio": "2026-10-22T17:15:00",
       "fecha_fin": null,
       "categoria": "Familia",
       "precio_desde": 40000.0,
@@ -298,7 +281,7 @@
       "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583x380_ehdk_89edde0c-3aab-4963-9b7f-743c365c09b7.jpg",
       "ticket_url": "https://tickets.qualitycenter.com/landing/quality-vr-experience?idEspectaculoCartel=17387&cHashValidacion=801528c673009c732754151fa08e7970ca13640b",
       "fuente": "entradauno.com",
-      "id": "1859dec8d04543a6",
+      "id": "c157e4a668268cc3",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -830,6 +813,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Museo Arqueológico de Cachi",
+      "venue": "Museo Arqueológico de Cachi",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-10-23T09:00:00",
+      "fecha_fin": null,
+      "categoria": "Museos",
+      "precio_desde": 150.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/Venues/Saltaticket/museos/Museo_Cachi/bg1.jpg",
+      "ticket_url": "https://www.vamos.gob.ar/landing/museo-arqueologico-de-cachi?idEspectaculoCartel=10993&cHashValidacion=8ceb994f20f5763c3afeb5ff40351cdb5352e09e",
+      "fuente": "entradauno.com",
+      "id": "817c743797aa96eb",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Sonido 360°",
       "venue": "Teatro Ciego",
       "ciudad": "CABA",
@@ -1170,7 +1170,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "DATA LOCAL x BELA x MNT!  - En vivo: Gorgojo + Avenido Los Incas",
+      "titulo": "DATA LOCAL x BELA x MNT!  - En vivo: Gorgojo + Avenida Los Incas",
       "venue": "Angelo de Peredo 325",
       "ciudad": "Córdoba",
       "provincia": "Córdoba",
@@ -1182,7 +1182,7 @@
       "imagen_url": "https://images.venti.live/user-images/1792072378298-lg.jpg",
       "ticket_url": "https://venti.live/evento/data-local-x-mnt-gorgojo-avenida-los-incas",
       "fuente": "venti.live",
-      "id": "594d598c8242e6f0",
+      "id": "e662df4501fd3a91",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -2309,6 +2309,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "«Caballito de batalla»",
+      "venue": "Teatro de la Manzana",
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "fecha_inicio": "2026-10-25",
+      "fecha_fin": null,
+      "categoria": "teatro",
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2026/08/Caballito-de-batalla-222x187.jpg",
+      "ticket_url": "https://www.rosarioencartel.com.ar/caballito-de-batalla/",
+      "fuente": "rosarioencartel.com.ar",
+      "id": "2a1f73e745c93f07",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Ben Marcus. \"Buenas intenciones Tour” en Humboldt | Niceto Club (+18 años)",
       "venue": "Humboldt | Niceto Club",
       "ciudad": "Buenos Aires",
@@ -2424,6 +2441,23 @@
       "ticket_url": "https://venti.live/evento/rambla-people-party-24-10",
       "fuente": "venti.live",
       "id": "1f8a52584bc0b3a5",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Deep sessions - Sinfonik W/ Suppa  en Niceto Bar",
+      "venue": "Niceto Bar",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-10-25T02:30:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792699390363-lg.jpg",
+      "ticket_url": "https://venti.live/evento/deep-sessions-sinfonik-w-suppa-en-niceto-bar",
+      "fuente": "venti.live",
+      "id": "d364c3df59a2ecca",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -7018,6 +7052,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "CHANA VIERNES  DE CLÁSICOS 6 DE NOVIEMBRE | Visual Sessions",
+      "venue": "Chana Club",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-07T02:59:35.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792701390368-lg.jpg",
+      "ticket_url": "https://venti.live/evento/chana-viernes-de-cl-sicos-6-de-noviembre-visual-sessions",
+      "fuente": "venti.live",
+      "id": "e29e0e0278fece03",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Polenta  6 NOV en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
@@ -7201,6 +7252,23 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "0cd6d0aede09625a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Natural progressive Sunset en Niceto Bar",
+      "venue": "Niceto Bar",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-07T20:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792699830826-lg.jpg",
+      "ticket_url": "https://venti.live/evento/natural-progressive-sunset-en-niceto-bar",
+      "fuente": "venti.live",
+      "id": "f42ba58747c3a532",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -8072,6 +8140,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "PUNTO ROJO",
+      "venue": "JET",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-09T02:59:04.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792700404123-lg.jpg",
+      "ticket_url": "https://venti.live/evento/punto-rojo",
+      "fuente": "venti.live",
+      "id": "ff4a3e10e1fd3df7",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "BLACK CREAM ORIGINAL DOMINGO 08/11",
       "venue": "BlackCream",
       "ciudad": "Buenos Aires",
@@ -8714,23 +8799,6 @@
       "ticket_url": "https://venti.live/evento/el-ciclo-federal-en-niceto-bar",
       "fuente": "venti.live",
       "id": "8fcf0b50fe91ab15",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Hairspray",
-      "venue": "Quality Center",
-      "ciudad": null,
-      "provincia": null,
-      "fecha_inicio": "2026-11-13",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/07/960x400_HSP-nueva-fecha.jpg",
-      "ticket_url": "https://qualitycenter.com/shows/hairspray/",
-      "fuente": "qualitycenter.com",
-      "id": "fac60f0fb4adecdb",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -10486,7 +10554,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Willy Bronca 19 NOV en Niceto Club",
+      "titulo": "Willy Bronca 19 NOV en Niceto Club (+18 años)",
       "venue": "Niceto Club",
       "ciudad": "Buenos Aires",
       "provincia": "Buenos Aires",
@@ -10498,7 +10566,7 @@
       "imagen_url": "https://images.venti.live/user-images/1792679028861-lg.jpg",
       "ticket_url": "https://venti.live/evento/willy-bronca-19-nov-en-niceto-club",
       "fuente": "venti.live",
-      "id": "f3c2a9bd7517b954",
+      "id": "206d7968e0f28da6",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -11587,6 +11655,23 @@
       "ticket_url": "https://venti.live/evento/wine-night-10-edici-n",
       "fuente": "venti.live",
       "id": "0a4057a1a2995df3",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "SOLO de JULYEN HAMILTON",
+      "venue": "Nos en Vera",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-21T23:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/assets/venti_horizontal_default_flyer.png",
+      "ticket_url": "https://venti.live/evento/solo-de-julyen-hamilton",
+      "fuente": "venti.live",
+      "id": "3f14f398ac152449",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -14736,6 +14821,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Un Sueño de Navidad",
+      "venue": "Quality Center",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-12-12",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/07/960x400_UnSuenoDeNavidad.jpg",
+      "ticket_url": "https://qualitycenter.com/shows/un-sueno-de-navidad/",
+      "fuente": "qualitycenter.com",
+      "id": "8958a1de5139b7c5",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "EL UNIPERSONAL DE LUCHO MELLERA?en la Sala Ginastera - Teatro Argentino La Plata",
       "venue": "la Sala Ginastera - Teatro Argentino La Plata",
       "ciudad": null,
@@ -17711,6 +17813,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Ana Gabriel",
+      "venue": "Movistar Arena",
+      "ciudad": "CABA",
+      "provincia": "CABA",
+      "fecha_inicio": "2027-04-05T21:00:00-03:00",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": 75000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://www.movistararena.com.ar/static/artistas/FA3F0_AnaGabriel_FileFotoFichaListado",
+      "ticket_url": "https://www.movistararena.com.ar/show/114bfa04-810a-434c-a8cc-00d3916d45d0",
+      "fuente": "movistararena.com.ar",
+      "id": "a53119aadda86d71",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Slash",
       "venue": "Movistar Arena",
       "ciudad": "CABA",
@@ -18034,23 +18153,6 @@
       "prioridad_destacado": 6
     },
     {
-      "titulo": "37ª Muestra Anual de Fotoperiodismo Argentino",
-      "venue": "Plataforma Lavardén – Sala de las Miradas",
-      "ciudad": "Rosario",
-      "provincia": "Santa Fe",
-      "fecha_inicio": "2027-10-08",
-      "fecha_fin": null,
-      "categoria": "Gratis",
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://www.rosarioencartel.com.ar/web/wp-content/uploads/2017/09/37a-Muestra-Anual-de-Fotoperiodismo-argentino-protesta-1-222x187.jpg",
-      "ticket_url": "https://www.rosarioencartel.com.ar/37a-muestra-anual-de-fotoperiodismo-argentino/",
-      "fuente": "rosarioencartel.com.ar",
-      "id": "37d717aef218a83a",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Eros Ramazzotti",
       "venue": "Movistar Arena",
       "ciudad": "CABA",
@@ -18066,6 +18168,23 @@
       "id": "1525a3738037cc83",
       "artista_internacional": "Eros Ramazzotti",
       "prioridad_destacado": 17
+    },
+    {
+      "titulo": "Hairspray",
+      "venue": "Quality Center",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": null,
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://qualitycenter.com/wp-content/uploads/2026/07/960x400_HSP-nueva-fecha.jpg",
+      "ticket_url": "https://qualitycenter.com/shows/hairspray/",
+      "fuente": "qualitycenter.com",
+      "id": "ddfc23bbb6655af2",
+      "artista_internacional": null,
+      "prioridad_destacado": null
     },
     {
       "titulo": "Escenas de la Vida Conyugal",
