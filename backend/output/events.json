@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-25T10:24:16.562866+00:00",
+  "generado": "2026-10-25T15:16:13.455432+00:00",
   "total_eventos": 999,
   "resumen_por_fuente": {
     "quality_center": 83,
@@ -269,23 +269,6 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "AM Sessions 25/10",
-      "venue": "MISIÓN",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-10-25T09:30:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1792714346607-lg.jpg",
-      "ticket_url": "https://venti.live/evento/am-sessions-25-10",
-      "fuente": "venti.live",
-      "id": "8c4d8bcdf66ef7ef",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
       "titulo": "Explora Salta",
       "venue": "Complejo Museológico Explora Salta",
       "ciudad": "Salta",
@@ -401,6 +384,23 @@
       "ticket_url": "https://tickets.qualitycenter.com/landing/quality-vr-experience?idEspectaculoCartel=17387&cHashValidacion=801528c673009c732754151fa08e7970ca13640b",
       "fuente": "entradauno.com",
       "id": "45b25246131aaefb",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "EPIC - HALLOWEEN EDITION 2026",
+      "venue": "El Cable Wakepark",
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "fecha_inicio": "2026-10-25T14:38:33.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1792939315282-lg.jpg",
+      "ticket_url": "https://venti.live/evento/epic-halloween-edition-2026",
+      "fuente": "venti.live",
+      "id": "ff9a743ba86d4202",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
