@@ -1,15 +1,15 @@
 {
-  "generado": "2026-10-29T03:32:27.753015+00:00",
-  "total_eventos": 1000,
+  "generado": "2026-10-29T12:01:04.387782+00:00",
+  "total_eventos": 998,
   "resumen_por_fuente": {
     "quality_center": 84,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
     "livepass": 176,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 419,
+    "venti": 418,
     "turbo_entrada": 20,
     "movistar_arena": 58,
-    "entrada_uno": 296,
+    "entrada_uno": 295,
     "rosario_en_cartel": "ERROR: HTTPSConnectionPool(host='www.rosarioencartel.com.ar', port=443): Read timed out. (read timeout=70)"
   },
   "eventos": [
@@ -316,23 +316,6 @@
       "ticket_url": "https://www.vamos.gob.ar/landing/10463-museo-guemes?idEspectaculoCartel=10463&cHashValidacion=acc17f1af219b4208a688fbcf1a431b6f8f9ef13",
       "fuente": "entradauno.com",
       "id": "e159524554a863f7",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "Quality VR Experience",
-      "venue": "Quality VR Experience",
-      "ciudad": "Córdoba",
-      "provincia": "Córdoba",
-      "fecha_inicio": "2026-10-29T16:00:00",
-      "fecha_fin": null,
-      "categoria": "Familia",
-      "precio_desde": 40000.0,
-      "moneda": "ARS",
-      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583x380_ehdk_89edde0c-3aab-4963-9b7f-743c365c09b7.jpg",
-      "ticket_url": "https://tickets.qualitycenter.com/landing/quality-vr-experience?idEspectaculoCartel=17387&cHashValidacion=801528c673009c732754151fa08e7970ca13640b",
-      "fuente": "entradauno.com",
-      "id": "9abfb63fcf412222",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -1727,23 +1710,6 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "366e4fe8f4ce00d4",
-      "artista_internacional": null,
-      "prioridad_destacado": null
-    },
-    {
-      "titulo": "ANTIGAL SESSIONS",
-      "venue": "Antigal Winery & Estates",
-      "ciudad": "Mendoza",
-      "provincia": "Mendoza",
-      "fecha_inicio": "2026-10-31T17:00:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1792499353154-lg.jpg",
-      "ticket_url": "https://venti.live/evento/antigal-sessions",
-      "fuente": "venti.live",
-      "id": "0fb8f96000ef373a",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
