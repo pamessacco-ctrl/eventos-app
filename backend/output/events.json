@@ -1,6 +1,6 @@
 {
-  "generado": "2026-11-05T04:15:52.075630+00:00",
-  "total_eventos": 988,
+  "generado": "2026-11-05T13:45:15.937532+00:00",
+  "total_eventos": 989,
   "resumen_por_fuente": {
     "quality_center": 74,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
@@ -9,7 +9,7 @@
     "venti": 417,
     "turbo_entrada": 18,
     "movistar_arena": 54,
-    "entrada_uno": 267,
+    "entrada_uno": 268,
     "rosario_en_cartel": 30
   },
   "eventos": [
@@ -1757,7 +1757,7 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1793396870078-lg.jpg",
+      "imagen_url": "https://images.venti.live/user-images/1793881957490-lg.jpg",
       "ticket_url": "https://venti.live/evento/minelek-xix-aniversario-en-humboldt-niceto-club-18-a-os",
       "fuente": "venti.live",
       "id": "e6d2bbbd1c5cfc26",
@@ -4264,6 +4264,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Orquesta Sinfonica de Salta",
+      "venue": "Teatro Provincial Juan Carlos Saravia",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-11-13T21:00:00",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": 8000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing-1583x380-cuchi_997f1083-5ed6-4f8e-9b1e-46c6534f03b0.jpg",
+      "ticket_url": "https://www.vamos.gob.ar/landing/orquesta-sinfonica-de-salta-tpjcss?idEspectaculoCartel=17236&cHashValidacion=288968303bd60421e8077ec33103b9a588f9075b",
+      "fuente": "entradauno.com",
+      "id": "c3aea053e6f0138a",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Culto Gitano",
       "venue": "Casa de la Cultura - Rio Grande",
       "ciudad": "Río Grande",
@@ -4519,7 +4536,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "Ciro Fogliatta en CCNU",
+      "titulo": "Elgarrista Lucero Aguero Benavides Thielen en CCNU",
       "venue": "CCNU",
       "ciudad": null,
       "provincia": null,
@@ -4528,10 +4545,10 @@
       "categoria": null,
       "precio_desde": null,
       "moneda": "ARS",
-      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/7c3cfefab04cfabc380be453faed392ef0e351e6.png?1792600277",
-      "ticket_url": "https://livepass.com.ar/events/ciro-fogliatta-en-ccnu",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/a2f2ee152ab107d7cf13d546fd2d6871b8f0383c.png?1793885864",
+      "ticket_url": "https://livepass.com.ar/events/elgarrista-lucero-aguero-benavides-thielen-en-ccnu",
       "fuente": "livepass.com.ar",
-      "id": "c9ce89fd08feb272",
+      "id": "d3d08744b516b1b7",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
