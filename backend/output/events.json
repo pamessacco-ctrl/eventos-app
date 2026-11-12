@@ -1,15 +1,15 @@
 {
-  "generado": "2026-11-12T04:54:51.258946+00:00",
-  "total_eventos": 909,
+  "generado": "2026-11-12T14:16:01.504290+00:00",
+  "total_eventos": 916,
   "resumen_por_fuente": {
     "quality_center": 65,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
-    "livepass": 169,
+    "livepass": 170,
     "mi_anticipada": "ERROR: 429 Client Error: Too Many Requests for url: https://mianticipada.com/obtener_eventos/?cantidad_eventos=500",
-    "venti": 395,
+    "venti": 398,
     "turbo_entrada": 16,
     "movistar_arena": 53,
-    "entrada_uno": 232,
+    "entrada_uno": 235,
     "rosario_en_cartel": 30
   },
   "eventos": [
@@ -881,6 +881,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Estacionamiento Ciro y Los Persas",
+      "venue": "Estadio Ruca Che",
+      "ciudad": "Neuquén",
+      "provincia": "Neuquén",
+      "fecha_inicio": "2026-11-13T19:00:00",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": 40000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/eu-1583x380-landin1-100k-01_0a058a5f-8382-4e44-b56f-181669f1d063.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "ed9f518c293089ac",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Alex Ubago - Palcos VIP",
       "venue": "Quality Espacio",
       "ciudad": "Córdoba",
@@ -1710,6 +1727,23 @@
       "ticket_url": "",
       "fuente": "entradauno.com",
       "id": "ceab0afabbc5987e",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Estacionamiento Flor Bertotti",
+      "venue": "Estadio Ruca Che",
+      "ciudad": "Neuquén",
+      "provincia": "Neuquén",
+      "fecha_inicio": "2026-11-14T19:00:00",
+      "fecha_fin": null,
+      "categoria": "Especiales",
+      "precio_desde": 40000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/1583x380-(1)-(2)_65b3a22f-019b-4963-8047-c055fe907674.jpg",
+      "ticket_url": "",
+      "fuente": "entradauno.com",
+      "id": "8de67ca321561809",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -4400,7 +4434,7 @@
       "prioridad_destacado": null
     },
     {
-      "titulo": "DANNY HOWELLS @ SWTICH CLUB",
+      "titulo": "DANNY HOWELLS @ SWITCH CLUB",
       "venue": "Switch Club",
       "ciudad": "Santa Fe",
       "provincia": "Santa Fe",
@@ -4412,7 +4446,7 @@
       "imagen_url": "https://images.venti.live/user-images/1789398607345-lg.jpg",
       "ticket_url": "https://venti.live/evento/danny-howells-swtich-club",
       "fuente": "venti.live",
-      "id": "cb0598361a0ddb59",
+      "id": "0a291aa9d0cdcab1",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -9466,6 +9500,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Katseye - Palcos VIP",
+      "venue": "Quality Espacio",
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "fecha_inicio": "2026-12-07T19:00:00",
+      "fecha_fin": null,
+      "categoria": "Música",
+      "precio_desde": 150000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/pv_1583x380katseyetributo_ef29c761-fbb8-4368-971f-e277960dffd7.jpg",
+      "ticket_url": "https://tickets.qualitycenter.com/landing/katseye---palcos-vip?idEspectaculoCartel=17743&cHashValidacion=1d43a0d2f89bd8c0d68cb6afbfbf90249a1b106b",
+      "fuente": "entradauno.com",
+      "id": "809c941dd3e78595",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "KATSEYE",
       "venue": "Quality Espacio",
       "ciudad": "Córdoba",
@@ -10057,6 +10108,23 @@
       "ticket_url": "https://livepass.com.ar/events/memphis-la-blusera-en-cafe-berlin-2026-12-11-20-45-00-0300",
       "fuente": "livepass.com.ar",
       "id": "8653b1ea2e5af967",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "Blues Motel en Cafe Berlin",
+      "venue": "Cafe Berlin",
+      "ciudad": null,
+      "provincia": null,
+      "fecha_inicio": "2026-12-11",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/ae1bc9edde7f5b0bab8eb20c37b8b807d6e93eac.jpg?1794419592",
+      "ticket_url": "https://livepass.com.ar/events/blues-motel-en-cafe-berlin-2026-12-11-23-00-00-0300",
+      "fuente": "livepass.com.ar",
+      "id": "b27d663baf6a6a0b",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
@@ -11965,6 +12033,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "Fiesta Pixie - Fin de año en Niceto Bar",
+      "venue": "Niceto Bar",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-12-27T00:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1794485728719-lg.jpg",
+      "ticket_url": "https://venti.live/evento/fiesta-pixie-fin-de-a-o-en-niceto-bar",
+      "fuente": "venti.live",
+      "id": "86dbf9596418b55c",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "OOSTIL - STJEPANEK- FACUNDO SVAL /EROS",
       "venue": "Pergamino",
       "ciudad": "Buenos Aires",
@@ -13767,6 +13852,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "La Finquita Sunset 20/02",
+      "venue": "LA FINQUITA 1920",
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "fecha_inicio": "2027-02-20T21:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1782871852119-lg.jpg",
+      "ticket_url": "https://venti.live/evento/la-finquita-sunset-20-02",
+      "fuente": "venti.live",
+      "id": "9df9dcfcdf81ab70",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Sin Bandera",
       "venue": "Palacio de los Deportes",
       "ciudad": "Tucumán",
@@ -13884,6 +13986,23 @@
       "id": "8f94eb2cb8416f5c",
       "artista_internacional": "Sin Bandera",
       "prioridad_destacado": 22
+    },
+    {
+      "titulo": "La Finquita Sunset 27/02",
+      "venue": "LA FINQUITA 1920",
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "fecha_inicio": "2027-02-27T21:00:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1782871852119-lg.jpg",
+      "ticket_url": "https://venti.live/evento/la-finquita-sunset-27-02",
+      "fuente": "venti.live",
+      "id": "b48ecc99534e7513",
+      "artista_internacional": null,
+      "prioridad_destacado": null
     },
     {
       "titulo": "Ludovico Einaudi: Solo Piano en el Teatro Colon",
