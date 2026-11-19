@@ -1,6 +1,6 @@
 {
-  "generado": "2026-11-19T05:01:56.030338+00:00",
-  "total_eventos": 927,
+  "generado": "2026-11-19T14:56:22.836680+00:00",
+  "total_eventos": 928,
   "resumen_por_fuente": {
     "quality_center": 58,
     "all_access": "ERROR: 403 Client Error: Forbidden for url: https://www.allaccess.com.ar/",
@@ -9,7 +9,7 @@
     "venti": 461,
     "turbo_entrada": 14,
     "movistar_arena": 54,
-    "entrada_uno": 207,
+    "entrada_uno": 208,
     "rosario_en_cartel": 24
   },
   "eventos": [
@@ -80,23 +80,6 @@
       "id": "5dbd830b69ccbfab",
       "artista_internacional": "Alex Ubago",
       "prioridad_destacado": 39
-    },
-    {
-      "titulo": "BRINDIS EN SERENA PISO 12",
-      "venue": "Serena piso 12",
-      "ciudad": "Buenos Aires",
-      "provincia": "Buenos Aires",
-      "fecha_inicio": "2026-11-18T23:00:00.000Z",
-      "fecha_fin": null,
-      "categoria": null,
-      "precio_desde": null,
-      "moneda": "ARS",
-      "imagen_url": "https://images.venti.live/user-images/1793730588278-lg.jpg",
-      "ticket_url": "https://venti.live/evento/brindis-en-serena-piso-12",
-      "fuente": "venti.live",
-      "id": "aca912abe8a27b13",
-      "artista_internacional": null,
-      "prioridad_destacado": null
     },
     {
       "titulo": "Mario Alonso Puig",
@@ -2802,6 +2785,23 @@
       "prioridad_destacado": null
     },
     {
+      "titulo": "AM Sessions 22/11",
+      "venue": "MISIÓN",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "fecha_inicio": "2026-11-22T09:30:00.000Z",
+      "fecha_fin": null,
+      "categoria": null,
+      "precio_desde": null,
+      "moneda": "ARS",
+      "imagen_url": "https://images.venti.live/user-images/1795093908241-lg.jpg",
+      "ticket_url": "https://venti.live/evento/am-sessions-22-11",
+      "fuente": "venti.live",
+      "id": "042e7815d7c3c6f1",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
       "titulo": "Chakras | Meditación Sensorial en completa oscuridad",
       "venue": "Teatro Ciego",
       "ciudad": "CABA",
@@ -3835,6 +3835,23 @@
       "ticket_url": "https://www.rosarioencartel.com.ar/hairspray/",
       "fuente": "rosarioencartel.com.ar",
       "id": "47c7da0e74d5b465",
+      "artista_internacional": null,
+      "prioridad_destacado": null
+    },
+    {
+      "titulo": "CINEMA-AI",
+      "venue": "Usina Cultural",
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "fecha_inicio": "2026-11-26T19:00:00",
+      "fecha_fin": null,
+      "categoria": "Teatro",
+      "precio_desde": 10000.0,
+      "moneda": "ARS",
+      "imagen_url": "https://contenidos.entradauno.com/cache/imagenes/productos/landing_v1_e353b899-2928-4df3-b081-cfec2cf97ceb.jpg",
+      "ticket_url": "https://www.vamos.gob.ar/landing/cinema-ai?idEspectaculoCartel=17771&cHashValidacion=a1f02d154c9e23a1625d94f7e8fed3cd130da146",
+      "fuente": "entradauno.com",
+      "id": "21f383b79cfc9a9c",
       "artista_internacional": null,
       "prioridad_destacado": null
     },
